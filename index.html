@@ -1,0 +1,2821 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Name</title>
+    <meta name='keywords' content='' />
+    <meta name='description' content='' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="assets/css/build/build/swiper.css">
+    <link rel="stylesheet" href="assets/css/build/build/fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/build/fancybox.min.js" defer></script>
+    <script src="assets/js/request.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/sourcebuster.min.js" defer></script></head>
+
+<body>
+    <header class="header" id="header">
+        <div class="header__inner">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__top-row">
+                        <div class="header__top-item">
+                            <a href="/" class="header__logo logo">
+                                <picture class="logo__picture">
+                                    <source srcset="assets/img/logo.webp" type="image/webp">
+                                    <img src="assets/img/logo.png" alt="Logo">
+                                </picture>
+                            </a>
+                            <a href="/" class="header__logo header__logo--mob logo">
+                                <picture class="logo__picture">
+                                    <source srcset="assets/img/icons/logo-mob.webp" type="image/webp">
+                                    <img src="assets/img/icons/logo-mob.png" alt="Logo">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="header__top-item header__top-item--btns header__info">
+                            <div class="top-item__btns">
+                                <button class="top-item__btn btn popup-btn" data-path="popup-change">
+                                    <picture class="top-item__btn-img">
+                                        <source srcset="assets/img/icons/home.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/home.png" alt="location">
+                                    </picture>
+                                    <div class="top-item__btn-text">
+                                        <p>Вызов врача на дом</p>
+                                    </div>
+                                </button>
+                                <button class="top-item__btn btn popup-btn" data-path="popup-change">
+                                    <picture class="top-item__btn-img">
+                                        <source srcset="assets/img/icons/test.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/test.png" alt="location">
+                                    </picture>
+                                    <div class="top-item__btn-text">
+                                        <p>Тест на психическое состояние</p>
+                                    </div>
+                                </button>
+                            </div>
+                            <div class="top-item__btns">
+                                <button class="top-item__btn btn popup-btn" data-path="popup-change">
+                                    <picture class="top-item__btn-img">
+                                        <source srcset="assets/img/icons/online-pay.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/online-pay.png" alt="location">
+                                    </picture>
+                                    <div class="top-item__btn-text">
+                                        <p>Оплата онлайн</p>
+                                    </div>
+                                </button>
+                                <button class="top-item__btn btn popup-btn" data-path="popup-change">
+                                    <picture class="top-item__btn-img">
+                                        <source srcset="assets/img/icons/record.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/record.png" alt="location">
+                                    </picture>
+                                    <div class="top-item__btn-text">
+                                        <p>Записаться на прием к врачу</p>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="header__top-contact header__info">
+                            <div class="header__top-item header__info--address">
+                                <div class="header__info-title">
+                                    <p>Адрес:</p>
+                                </div>
+                                <div class="header__info-text">
+                                    <button class="popup-btn" data-path="popup-city">Нижний Новгород, ул. Родионова,
+                                        187В</button>
+                                </div>
+                            </div>
+                            <div class="header__top-item header__info--phone">
+                                <div class="header__info-title">
+                                    <p>Работаем круглосуточно!</p>
+                                </div>
+                                <div class="header__info-text header__info-phone">
+                                    <a href="tel:+78632261817">+7 (495) 225-81-58</a>
+                                </div>
+                                <div class="header__info-text header__info-mail">
+                                    <a href="mailto:info@rasstroystv.ru">info@rasstroystv.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__btns header__btns--mob">
+                            <button class="primary-btn popup-btn" data-path="popup-search">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/search.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/search.png" alt="location">
+                                </picture>
+                            </button>
+                            <a href="#" class="tertiary-btn popup-btn">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/views.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/views.png" alt="location">
+                                </picture>
+                            </a>
+                            <button class="primary-btn popup-btn" data-path="popup-search">
+                                <picture class="top-item__btn-img">
+                                    <source srcset="assets/img/icons/record-mob.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/record-mob.png" alt="location">
+                                </picture>
+                            </button>
+                        </div>
+                        <div class="header__top-item header__info">
+                            <div class="social-networks">
+                                <div class="social-networks__item">
+                                    <picture class="header__info-img">
+                                        <source srcset="assets/img/icons/vk.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/vk.png" alt="location">
+                                    </picture>
+                                </div>
+                                <div class="social-networks__item">
+                                    <picture class="header__info-img">
+                                        <source srcset="assets/img/icons/ok.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/ok.png" alt="location">
+                                    </picture>
+                                </div>
+                                <div class="social-networks__item">
+                                    <picture class="header__info-img">
+                                        <source srcset="assets/img/icons/tg.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/tg.png" alt="location">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__mobile">
+                            <div class="header__top-btns">
+                                <button class="burger">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="header__bottom">
+                    <div class="header__bottom-row">
+                        <div class="header__mobile">
+                            <div class="header__infos">
+                                <div class="header__info">
+                                    <div class="header__info-text">
+                                        <div class="header__info-title">
+                                            <p>Адрес:</p>
+                                        </div>
+                                        <div class="header__info-text">
+                                            <button class="popup-btn" data-path="popup-city">Нижний Новгород, ул. Родионова,
+                                                187В</button>
+                                        </div>
+                                    </div>
+                                    <div class="header__info-email">
+                                        <p>Почта:</p> <a href="mailto:info@rasstroystv.ru">info@rasstroystv.ru</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__menu">
+                            <nav class="header__nav">
+                                <ul class="header__nav-list">
+                                    <li class="header__nav-item header__nav-item--services">
+                                        <button class="header__nav-open">
+                                            <div class="header__nav-burger">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                            <span class="header__nav-name">Услуги</span>
+                                            <ul class="header__nav-sublist">
+                                                <li><a href="#">Алкоголизм</a>
+                                                    <span class="header__nav-arrow">
+                                                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M13 1.5L7 7.5L1 1.5" stroke="#363940"
+                                                                stroke-width="1.5" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </span>
+                                                    <div class="header__nav-subsublist">
+                                                        <ul>
+                                                            <li><a href="#">Вывод из запоя</a></li>
+                                                            <li><a href="#">Лечение алкогольной зависимости</a></li>
+                                                            <li><a href="#">Лечение похмелья</a></li>
+                                                            <li><a href="#">Реабилитация алкоголизма</a></li>
+                                                            <li><a href="#">Кодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Вшивание торпеды от алкоголизма</a></li>
+                                                            <li><a href="#">Кодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Раскодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Раскодирование от алкоголизма</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li><a href="#">Капельница</a>
+                                                    <span class="header__nav-arrow">
+                                                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M13 1.5L7 7.5L1 1.5" stroke="#363940"
+                                                                stroke-width="1.5" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </span>
+                                                    <div class="header__nav-subsublist">
+                                                        <ul>
+                                                            <li><a href="#">Вывод из запоя</a></li>
+                                                            <li><a href="#">Лечение алкогольной зависимости</a></li>
+                                                            <li><a href="#">Лечение похмелья</a></li>
+                                                            <li><a href="#">Реабилитация алкоголизма</a></li>
+                                                            <li><a href="#">Кодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Кодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Кодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Вшивание торпеды от алкоголизма</a></li>
+                                                            <li><a href="#">Вшивание торпеды от алкоголизма</a></li>
+                                                            <li><a href="#">Кодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Раскодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Раскодирование от алкоголизма</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li><a href="#">Наркомания</a>
+                                                    <span class="header__nav-arrow">
+                                                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M13 1.5L7 7.5L1 1.5" stroke="#363940"
+                                                                stroke-width="1.5" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </span>
+                                                    <div class="header__nav-subsublist">
+                                                        <ul>
+                                                            <li><a href="#">Вывод из запоя</a></li>
+                                                            <li><a href="#">Лечение алкогольной зависимости</a></li>
+                                                            <li><a href="#">Лечение похмелья</a></li>
+                                                            <li><a href="#">Реабилитация алкоголизма</a></li>
+                                                            <li><a href="#">Кодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Вшивание торпеды от алкоголизма</a></li>
+                                                            <li><a href="#">Кодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Раскодирование от алкоголизма</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li><a href="#">Психиатрия</a>
+                                                    <span class="header__nav-arrow">
+                                                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M13 1.5L7 7.5L1 1.5" stroke="#363940"
+                                                                stroke-width="1.5" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </span>
+                                                    <div class="header__nav-subsublist">
+                                                        <ul>
+                                                            <li><a href="#">Вывод из запоя</a></li>
+                                                            <li><a href="#">Лечение алкогольной зависимости</a></li>
+                                                            <li><a href="#">Лечение похмелья</a></li>
+                                                            <li><a href="#">Реабилитация алкоголизма</a></li>
+                                                            <li><a href="#">Раскодирование от алкоголизма</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li><a href="#">Игромания</a>
+                                                    <span class="header__nav-arrow">
+                                                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M13 1.5L7 7.5L1 1.5" stroke="#363940"
+                                                                stroke-width="1.5" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </span>
+                                                    <div class="header__nav-subsublist">
+                                                        <ul>
+                                                            <li><a href="#">Вывод из запоя</a></li>
+                                                            <li><a href="#">Лечение алкогольной зависимости</a></li>
+                                                            <li><a href="#">Лечение похмелья</a></li>
+                                                            <li><a href="#">Реабилитация алкоголизма</a></li>
+                                                            <li><a href="#">Кодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Вшивание торпеды от алкоголизма</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li><a href="#">Другие медицинские</a>
+                                                    <span class="header__nav-arrow">
+                                                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M13 1.5L7 7.5L1 1.5" stroke="#363940"
+                                                                stroke-width="1.5" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </span>
+                                                    <div class="header__nav-subsublist">
+                                                        <ul>
+                                                            <li><a href="#">Вывод из запоя</a></li>
+                                                            <li><a href="#">Лечение алкогольной зависимости</a></li>
+                                                            <li><a href="#">Лечение похмелья</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </button>
+                                    </li>
+                                    <li class="header__nav-item header__nav-item--descp">
+                                        <button class="header__nav-open">
+                                            <span class="header__nav-name">О нас</span>
+                                            <ul class="header__nav-sublist">
+                                                <li><a href="#">Лицензии</a></li>
+                                                <li><a href="#">Акции</a></li>
+                                                <li><a href="#">Отзывы</a></li>
+                                                <li><a href="#">Фотогалерея</a></li>
+                                            </ul>
+                                        </button>
+                                    </li>
+                                    <li class="header__nav-item header__nav-item--disc">
+                                        <a href="#" class="header__nav-link">Цены</a>
+                                    </li>
+    
+                                    <li class="header__nav-item header__nav-item--disc">
+                                        <a href="#" class="header__nav-link">Специалисты</a>
+                                    </li>
+    
+                                    <li class="header__nav-item header__nav-item--disc">
+                                        <a href="#" class="header__nav-link">Статьи</a>
+                                    </li>
+    
+                                    <li class="header__nav-item header__nav-item--disc">
+                                        <a href="#" class="header__nav-link">Контакты</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="header__info-btns">
+                            <button class="header__info-btn popup-btn" data-path="popup-change">
+                                <picture>
+                                    <source srcset="assets/img/icons/btn-1.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/btn-1.png" alt="close_popup">
+                                </picture>
+                                Записаться на прием к врачу
+                            </button>
+                            <button class="header__info-btn popup-btn" data-path="popup-change">
+                                <picture>
+                                    <source srcset="assets/img/icons/btn-2.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/btn-2.png" alt="close_popup">
+                                </picture>
+                                Вызов врача на дом
+                            </button>
+                            <button class="header__info-btn popup-btn" data-path="popup-change">
+                                <picture>
+                                    <source srcset="assets/img/icons/btn-3.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/btn-3.png" alt="close_popup">
+                                </picture>
+                                Тест на психическое состояние
+                            </button>
+                        </div>
+                        <div class="header__btns">
+                            <button class="primary-btn popup-btn" data-path="popup-search">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/search.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/search.png" alt="location">
+                                </picture>
+                            </button>
+                            <a href="#" class="tertiary-btn popup-btn">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/views.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/views.png" alt="location">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="social-networks social-networks--mob">
+                            <div class="social-networks__item">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/vk.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/vk.png" alt="location">
+                                </picture>
+                            </div>
+                            <div class="social-networks__item">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/ok.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/ok.png" alt="location">
+                                </picture>
+                            </div>
+                            <div class="social-networks__item">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/tg.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/tg.png" alt="location">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>    <main class="main">
+        <section class="intro-left intro-left--home general-section">
+            <div class="container">
+                <div class="intro-left__main">
+                    <div class="intro-left__items">
+                        <div class="intro-left__item intro-left__item--services">
+                            <picture>
+                                <source srcset="assets/img/icons/banner-in.webp" type="image/webp">
+                                <img src="assets/img/icons/banner-in.png" alt="banner">
+                            </picture>
+                            <a class="item-phones item-phones--mob" href="tel:+74952258158">
+                                <div class="item-phones__img"></div>
+                                <div class="item-phones__text">
+                                    Работаем круглосуточно!
+                                    <span>Обратиться за помощью</span>
+                                </div>
+                            </a>
+                            <div class="intro-left__item-img">
+                                <picture>
+                                    <source srcset="assets/img/icons/bac-derv.webp" type="image/webp">
+                                    <img src="assets/img/icons/bac-derv.png" alt="banner">
+                                </picture>
+                                <p>100% Конфиденциальность,
+                                    без постановки на учет</p>
+                            </div>
+                            <div class="intro-left__item-btns popup-btn" data-path="popup-change">
+                            </div>
+                            <button class="general-button popup-btn intro-left__item-btn--mob" data-path="popup-change">
+                                Задать вопрос врачу
+                            </button>
+                        </div>
+                        <div class="intro-left__item intro-left__item--services intro-left__item--text">
+                            <h1 class="title_h1">Психиатрическая клиника
+                                «Баланс» в Нижнем Новгороде</h1>
+                            <p class="subtitle subtitle--services">Психиатрическая клиника «Баланс» в Нижнем Новгороде — это
+                                современный центр психиатрической помощи, где проводят лечение тревоги, депрессии, панических
+                                атак, бессонницы и стресса и других психических расстройств. Опытные психиатры и психотерапевты
+                                подбирают индивидуальный план лечения, используя современные и безопасные доказательные методы.
+                                Приём проходит конфиденциально и в комфортных условиях, без осуждения и очередей. Клиника
+                                «Баланс» помогает восстановить душевное равновесие и вернуть спокойствие в повседневную жизнь.
+                            </p>
+                            <a class="item-phones" href="tel:+74952258158">
+                                <div class="item-phones__img"></div>
+                                <div class="item-phones__text">
+                                    Работаем круглосуточно!
+                                    <span>Обратиться за помощью</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="directions-section general-section">
+            <div class="container">
+                <div class="directions-section__subtitle section__subtitle">
+                    <p>Наши услуги</p>
+                </div>
+                <div class="directions-section__title section__title">
+                    <p>Основные направления нашей деятельности</p>
+                </div>
+                <div class="directions-section__items">
+                    <div class="directions-section__item directions-section__item--picture">
+                        <picture class="directions-section__item-picture">
+                            <source srcset="assets/img/icons/directions1.webp" type="image/webp">
+                            <img src="assets/img/icons/directions1.jpg" alt="banner">
+                        </picture>
+                        <picture class="directions-section__item-mask">
+                            <source srcset="assets/img/icons/directions11.webp" type="image/webp">
+                            <img src="assets/img/icons/directions11.png" alt="banner">
+                        </picture>
+                    </div>
+                    <div class="directions-section__item">
+                        <div class="directions-section__item-title">
+                            <p>Лечение психических расстройств</p>
+                        </div>
+                        <div class="directions-section__item-text">
+                            <p>Клиника «Баланс» оказывает квалифицированную психиатрическую и психологическую помощь людям с
+                                нарушениями психоэмоционального состояния. Наши психиатры и психотерапевты работают с
+                                депрессией, тревогой, паническими атаками, фобиями, апатией, нарушениями сна и другими
+                                психическими расстройствами. Мы проводим диагностику психического здоровья, определяем причины
+                                ухудшения самочувствия и подбираем персональный план лечения. В терапии сочетаются современные
+                                психиатрические методы и элементы психотерапии, направленные на восстановление эмоционального
+                                равновесия и устойчивости к стрессу. Каждое обращение рассматривается индивидуально — с
+                                вниманием, конфиденциально и без осуждения.</p>
+                        </div>
+                        <div class="directions-section__item-links">
+                            <a href="#" class="directions-section__item-link">
+                                <p>Депрессия</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Панические атаки</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Бессонница</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Психоз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Депрессия</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Панические атаки</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Бессонница</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Психоз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Депрессия</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Панические атаки</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Бессонница</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Психоз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Депрессия</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Панические атаки</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Бессонница</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Психоз</p>
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="directions-section__lines"><span class="directions-section__line"></span></div>
+                <div class="directions-section__items directions-section__items--right">
+                    <div class="directions-section__item">
+                        <div class="directions-section__item-title">
+                            <p>Помощь при зависимостях</p>
+                        </div>
+                        <div class="directions-section__item-text">
+                            <p>Наши специалисты оказывают поддержку при алкогольной, наркотической, игровой и эмоциональной
+                                зависимости. Работа строится на понимании, доверии и профессионализме: мы помогаем человеку
+                                осознать причину тяги, пройти этап физического и психологического восстановления, вернуть
+                                контроль над поведением. В программу могут входить детоксикация, индивидуальная терапия,
+                                консультации для семьи и медикаментозная поддержка. Цель — не просто остановить зависимость, а
+                                помочь пациенту построить новую, устойчивую жизнь без неё.</p>
+                        </div>
+                        <div class="directions-section__item-links">
+                            <a href="#" class="directions-section__item-link">
+                                <p>Депрессия</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Панические атаки</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Бессонница</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Психоз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Депрессия</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Панические атаки</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Бессонница</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Психоз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Депрессия</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Панические атаки</p>
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="directions-section__item directions-section__item--picture">
+                        <picture class="directions-section__item-picture">
+                            <source srcset="assets/img/icons/directions2.webp" type="image/webp">
+                            <img src="assets/img/icons/directions2.jpg" alt="banner">
+                        </picture>
+                        <picture class="directions-section__item-mask">
+                            <source srcset="assets/img/icons/directions11.webp" type="image/webp">
+                            <img src="assets/img/icons/directions11.png" alt="banner">
+                        </picture>
+                    </div>
+                </div>
+                <div class="directions-section__lines"><span class="directions-section__line"></span></div>
+                <div class="directions-section__items">
+                    <div class="directions-section__item directions-section__item--picture">
+                        <picture class="directions-section__item-picture">
+                            <source srcset="assets/img/icons/directions1.webp" type="image/webp">
+                            <img src="assets/img/icons/directions1.jpg" alt="banner">
+                        </picture>
+                        <picture class="directions-section__item-mask">
+                            <source srcset="assets/img/icons/directions11.webp" type="image/webp">
+                            <img src="assets/img/icons/directions11.png" alt="banner">
+                        </picture>
+                    </div>
+                    <div class="directions-section__item">
+                        <div class="directions-section__item-title">
+                            <p>Лечение психических расстройств</p>
+                        </div>
+                        <div class="directions-section__item-text">
+                            <p>Клиника «Баланс» оказывает квалифицированную психиатрическую и психологическую помощь людям с
+                                нарушениями психоэмоционального состояния. Наши психиатры и психотерапевты работают с
+                                депрессией, тревогой, паническими атаками, фобиями, апатией, нарушениями сна и другими
+                                психическими расстройствами. Мы проводим диагностику психического здоровья, определяем причины
+                                ухудшения самочувствия и подбираем персональный план лечения. В терапии сочетаются современные
+                                психиатрические методы и элементы психотерапии, направленные на восстановление эмоционального
+                                равновесия и устойчивости к стрессу. Каждое обращение рассматривается индивидуально — с
+                                вниманием, конфиденциально и без осуждения.</p>
+                        </div>
+                        <div class="directions-section__item-links">
+                            <a href="#" class="directions-section__item-link">
+                                <p>Депрессия</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Панические атаки</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Бессонница</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Психоз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Депрессия</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Панические атаки</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Бессонница</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Психоз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Депрессия</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Панические атаки</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Бессонница</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Психоз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Депрессия</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Панические атаки</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Невроз</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Бессонница</p>
+                                <span></span>
+                            </a>
+                            <a href="#" class="directions-section__item-link">
+                                <p>Психоз</p>
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="really-section general-section general-slider">
+            <div class="general-section__container container">
+                <div class="really-section__subtitle section__subtitle">
+                    <p>Преимущества</p>
+                </div>
+                <div class="really-section__title section__title">
+                    <p>То, что действительно важно для наших пациентов</p>
+                </div>
+                <div class="really-section__text section__text">
+                    <p>Откройте для себя ключевые преимущества клиники «Баланс», которые делают лечение психических расстройств
+                        безопасным, эффективным и комфортным для каждого пациента.</p>
+                </div>
+                <div class="swiper swiper-really">
+                    <div class="really-section__cards swiper-wrapper">
+                        <div class="really-section__gard swiper-slide">
+                            <div class="really-section__gard-title">
+                                <p>1. Индивидуальный подход</p>
+                            </div>
+                            <div class="really-section__gard-text">
+                                <p>Каждый случай рассматривается отдельно — без шаблонов и поспешных выводов. Лечение
+                                    подбирается под человека, а не под диагноз.</p>
+                            </div>
+                            <picture class="really-section__gard-img">
+                                <source srcset="assets/img/icons/really.webp" type="image/webp">
+                                <img src="assets/img/icons/really.png" alt="banner">
+                            </picture>
+                        </div>
+                        <div class="really-section__gard swiper-slide">
+                            <div class="really-section__gard-title">
+                                <p>2. Опытные специалисты</p>
+                            </div>
+                            <div class="really-section__gard-text">
+                                <p>В нашей команде работают специалисты с многолетней практикой, владеющие современными методами
+                                    диагностики и терапии.</p>
+                            </div>
+                            <picture class="really-section__gard-img">
+                                <source srcset="assets/img/icons/really2.webp" type="image/webp">
+                                <img src="assets/img/icons/really2.png" alt="banner">
+                            </picture>
+                        </div>
+                        <div class="really-section__gard swiper-slide">
+                            <div class="really-section__gard-title">
+                                <p>3. Комплексная помощь</p>
+                            </div>
+                            <div class="really-section__gard-text">
+                                <p>Мы объединяем психиатрию, психотерапию и психологическую поддержку, чтобы восстановление было
+                                    полным и устойчивым.</p>
+                            </div>
+                            <picture class="really-section__gard-img">
+                                <source srcset="assets/img/icons/really3.webp" type="image/webp">
+                                <img src="assets/img/icons/really3.png" alt="banner">
+                            </picture>
+                        </div>
+                        <div class="really-section__gard swiper-slide">
+                            <div class="really-section__gard-title">
+                                <p>4. Строгая конфиденциальность</p>
+                            </div>
+                            <div class="really-section__gard-text">
+                                <p>Информация о пациентах
+                                    остаётся только между вами
+                                    и врачом. Полная анонимность
+                                    гарантирована.</p>
+                            </div>
+                            <picture class="really-section__gard-img">
+                                <source srcset="assets/img/icons/really4.webp" type="image/webp">
+                                <img src="assets/img/icons/really4.png" alt="banner">
+                            </picture>
+                        </div>
+                        <div class="really-section__gard swiper-slide">
+                            <div class="really-section__gard-title">
+                                <p>5. Спокойная атмосфера</p>
+                            </div>
+                            <div class="really-section__gard-text">
+                                <p>В клинике создано пространство,
+                                    где можно чувствовать себя безопасно и открыто говорить о своих переживаниях.</p>
+                            </div>
+                            <picture class="really-section__gard-img">
+                                <source srcset="assets/img/icons/really5.webp" type="image/webp">
+                                <img src="assets/img/icons/really5.png" alt="banner">
+                            </picture>
+                        </div>
+                        <div class="really-section__gard swiper-slide">
+                            <div class="really-section__gard-title">
+                                <p>6. Добровольность</p>
+                            </div>
+                            <div class="really-section__gard-text">
+                                <p>Уважение права пациента
+                                    на самостоятельное принятие
+                                    решений о лечении.
+                                </p>
+                            </div>
+                            <picture class="really-section__gard-img">
+                                <source srcset="assets/img/icons/really6.webp" type="image/webp">
+                                <img src="assets/img/icons/really6.png" alt="banner">
+                            </picture>
+                        </div>
+                        <div class="really-section__gard swiper-slide">
+                            <div class="really-section__gard-title">
+                                <p>7. Непрерывность помощи</p>
+                            </div>
+                            <div class="really-section__gard-text">
+                                <p> Мы сопровождаем пациента от первой консультации до восстановления, помогая сохранить
+                                    результат
+                                    и предотвратить рецидивы.
+                                </p>
+                            </div>
+                            <picture class="really-section__gard-img">
+                                <source srcset="assets/img/icons/really6.webp" type="image/webp">
+                                <img src="assets/img/icons/really6.png" alt="banner">
+                            </picture>
+                        </div>
+                        <div class="really-section__gard swiper-slide">
+                            <div class="really-section__gard-title">
+                                <p>8. Лечение в домашней обстановке</p>
+                            </div>
+                            <div class="really-section__gard-text">
+                                <p>Для тех, кому сложно приехать
+                                    в клинику, предусмотрен прием
+                                    на дому — с тем же вниманием
+                                    и качеством.</p>
+                            </div>
+                            <picture class="really-section__gard-img">
+                                <source srcset="assets/img/icons/really8.webp" type="image/webp">
+                                <img src="assets/img/icons/really8.png" alt="banner">
+                            </picture>
+                        </div>
+                        <div class="really-section__gard swiper-slide">
+                            <div class="really-section__gard-title">
+                                <p>9. Доверие и уважение к каждому</p>
+                            </div>
+                            <div class="really-section__gard-text">
+                                <p>Мы не оцениваем и не навязываем решения. В «Балансе» человек получает не только лечение, но и
+                                    поддержку, необходимую
+                                    для внутреннего равновесия.</p>
+                            </div>
+                            <picture class="really-section__gard-img">
+                                <source srcset="assets/img/icons/really9.webp" type="image/webp">
+                                <img src="assets/img/icons/really9.png" alt="banner">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-button-next--swiper-really"></div>
+                <div class="swiper-button-prev swiper-button-prev--swiper-really"></div>
+            </div>
+        </section>
+        <section class="board board--main board--selection general-section">
+            <div class="container">
+                <div class="board__main">
+                    <div class="board__items">
+                        <div class="board__item">
+                            <div class="board__item-top">
+                                <div class="board__item-title">
+                                    <p>Оставьте контактные данные
+                                        и мы свяжемся с вами!</p>
+                                </div>
+                                <div class="board__item-text">
+                                    <p>Обратитесь за помощью или задайте, волнующие вас, вопросы — специалист поможет вам найти
+                                        выход из трудной ситуации.</p>
+                                </div>
+                            </div>
+                            <div class="board__item-form">
+                                <form class="form form-board">
+                                    <div class="form-board__item">
+                                        <input type="text" name="params[name][]" placeholder="Ваш телефон" required="">
+                                        <input type="tel" name="params[phone][]" placeholder="Ваше имя" required="">
+                                    </div>
+                                    <div class="form-board__item">
+                                        <button type="submit" class="general-button"><span>Отправить</span></button>
+                                        <div class="politic white">
+                                            <input type="checkbox" id="politic1" checked="">
+                                            <label class="checkbox">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkbox-mark"></span>
+                                                <span>Отправляя заявку, вы соглашаетесь
+                                                    с <a href="#">политикой конфиденциальности</a>.</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="board__item">
+                            <picture class="iboard__item-picture">
+                                <source srcset="assets/img/icons/banner-imgs.webp" type="image/webp">
+                                <img src="assets/img/icons/banner-imgs.jpg" alt="banner">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <picture class="board__picture">
+                <source srcset="assets/img/icons/board2.webp" type="image/webp">
+                <img src="assets/img/icons/board2.png" alt="banner">
+            </picture>
+        </section>
+        <section class="price__section general-section general-slider">
+            <div class="container">
+                <div class="price__section-subtitle section__subtitle">
+                    <p>Стоимость</p>
+                </div>
+                <div class="price__section-title section__title">
+                    <p>Цены на услуги клиники</p>
+                </div>
+                <div class="price__section-text section__text">
+                    <p>Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты
+                        или прототипы содержимым. Это тестовый контент, который не должен нести никакого смысла, лишь показать
+                        наличие самого текста.</p>
+                </div>
+                <div class="price__wrap">
+                    <div class="price__left">
+                        <div class="price__tab-wrap tab-wrap">
+                            <div class="price__tab-main tab-main">
+                                <div class="price__tab-btns tab-btns">
+                                    <button class="price__tab-btn tab-btn active" data-tab="rev-1">Лечение расстройств</button>
+                                    <button class="price__tab-btn tab-btn" data-tab="rev-2">Лечение зависимостей</button>
+                                    <button class="price__tab-btn tab-btn" data-tab="rev-3">Консультация врача</button>
+                                    <button class="price__tab-btn tab-btn" data-tab="rev-4">Капельницы</button>
+                                    <button class="price__tab-btn tab-btn" data-tab="rev-5">Выездные услуги</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content active" data-tab="rev-1">
+                            <div class="price__items">
+                                <div class="price__item">
+                                    <div class="price__item-name">
+                                        Капельница от запоя
+                                    </div>
+                                    <div class="price__item-btns">
+                                        <div class="price__item-num">
+                                            от 40 800 ₽/мес
+                                        </div>
+                                        <div class="price__item-btn">
+                                            <button data-path="popup-change" class="general-button popup-btn">
+                                                Заказать
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="price__item">
+                                    <div class="price__item-name">
+                                        Капельница от запоя
+                                    </div>
+                                    <div class="price__item-btns">
+                                        <div class="price__item-num">
+                                            от 40 800 ₽/мес
+                                        </div>
+                                        <div class="price__item-btn">
+                                            <button data-path="popup-change" class="general-button popup-btn">
+                                                Заказать
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="price__item">
+                                    <div class="price__item-name">
+                                        Капельница от запоя
+                                    </div>
+                                    <div class="price__item-btns">
+                                        <div class="price__item-num">
+                                            от 40 800 ₽/мес
+                                        </div>
+                                        <div class="price__item-btn">
+                                            <button data-path="popup-change" class="general-button popup-btn">
+                                                Заказать
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="price__item">
+                                    <div class="price__item-name">
+                                        Капельница от запоя
+                                    </div>
+                                    <div class="price__item-btns">
+                                        <div class="price__item-num">
+                                            от 40 800 ₽/мес
+                                        </div>
+                                        <div class="price__item-btn">
+                                            <button data-path="popup-change" class="general-button popup-btn">
+                                                Заказать
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="price__item">
+                                    <div class="price__item-name">
+                                        Капельница от запоя
+                                    </div>
+                                    <div class="price__item-btns">
+                                        <div class="price__item-num">
+                                            от 40 800 ₽/мес
+                                        </div>
+                                        <div class="price__item-btn">
+                                            <button data-path="popup-change" class="general-button popup-btn">
+                                                Заказать
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="price__item">
+                                    <div class="price__item-name">
+                                        Капельница от запоя
+                                    </div>
+                                    <div class="price__item-btns">
+                                        <div class="price__item-num">
+                                            от 40 800 ₽/мес
+                                        </div>
+                                        <div class="price__item-btn">
+                                            <button data-path="popup-change" class="general-button popup-btn">
+                                                Заказать
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="price__item">
+                                    <div class="price__item-name">
+                                        Капельница от запоя
+                                    </div>
+                                    <div class="price__item-btns">
+                                        <div class="price__item-num">
+                                            от 40 800 ₽/мес
+                                        </div>
+                                        <div class="price__item-btn">
+                                            <button data-path="popup-change" class="general-button popup-btn">
+                                                Заказать
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="price__item">
+                                    <div class="price__item-name">
+                                        Капельница от запоя
+                                    </div>
+                                    <div class="price__item-btns">
+                                        <div class="price__item-num">
+                                            от 40 800 ₽/мес
+                                        </div>
+                                        <div class="price__item-btn">
+                                            <button data-path="popup-change" class="general-button popup-btn">
+                                                Заказать
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="price__item">
+                                    <div class="price__item-name">
+                                        Капельница от запоя
+                                    </div>
+                                    <div class="price__item-btns">
+                                        <div class="price__item-num">
+                                            от 40 800 ₽/мес
+                                        </div>
+                                        <div class="price__item-btn">
+                                            <button data-path="popup-change" class="general-button popup-btn">
+                                                Заказать
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content" data-tab="rev-2">
+                            <div class="price__items">
+                                <div class="price__item">
+                                    <div class="price__item-name">
+                                        Капельница от запоя
+                                    </div>
+                                    <div class="price__item-btns">
+                                        <div class="price__item-num">
+                                            от 40 800 ₽/мес
+                                        </div>
+                                        <div class="price__item-btn">
+                                            <button data-path="popup-change" class="general-button popup-btn">
+                                                Заказать
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price__right">
+                        <div class="transparent-cost">
+                            <div class="transparent-cost__top">
+                                <div class="transparent-cost__title">
+                                    <p>Прозрачная стоимость лечения — без скрытых платежей</p>
+                                </div>
+                                <div class="transparent-cost__subtitle">
+                                    <p>Мы работаем по честным и понятным условиям: все цены фиксируются до начала терапии, без
+                                        неожиданных доплат и навязанных услуг. Вы сразу знаете, за что платите — только за
+                                        реальную
+                                        помощь и внимание специалистов.</p>
+                                </div>
+                            </div>
+                            <picture class="transparent-cost__picture">
+                                <source srcset="assets/img/icons/price-cost.webp" type="image/webp">
+                                <img src="assets/img/icons/price-cost.png" alt="banner">
+                            </picture>
+                        </div>
+                        <div class="payment-later">
+                            <div class="payment-later__title">
+                                <p>Помощь сегодня — оплата потом</p>
+                            </div>
+                            <div class="payment-later__text">
+                                <p>В клинике «Баланс» вы можете начать лечение уже сейчас — оформить рассрочку просто и без
+                                    переплат.</p>
+                            </div>
+                            <div class="payment-later__info-items">
+                                <div class="payment-later__info-item">
+                                    <picture class="payment-later__info-picture">
+                                        <source srcset="assets/img/icons/chek.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/chek.png" alt="location">
+                                    </picture>
+                                    <div class="payment-later__info-text">
+                                        <p>0% процентов и комиссий — вы платите только за лечение.</p>
+                                    </div>
+                                </div>
+                                <div class="payment-later__info-item">
+                                    <picture class="payment-later__info-picture">
+                                        <source srcset="assets/img/icons/chek.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/chek.png" alt="location">
+                                    </picture>
+                                    <div class="payment-later__info-text">
+                                        <p>Без банков и справок — всё оформляется напрямую в клинике.</p>
+                                    </div>
+                                </div>
+                                <div class="payment-later__info-item">
+                                    <picture class="payment-later__info-picture">
+                                        <source srcset="assets/img/icons/chek.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/chek.png" alt="location">
+                                    </picture>
+                                    <div class="payment-later__info-text">
+                                        <p>Гибкий график платежей — ценим ваши возможности.</p>
+                                    </div>
+                                </div>
+                                <div class="payment-later__info-item">
+                                    <picture class="payment-later__info-picture">
+                                        <source srcset="assets/img/icons/chek.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/chek.png" alt="location">
+                                    </picture>
+                                    <div class="payment-later__info-text">
+                                        <p>Конфиденциально и честно — никаких скрытых условий.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="payment-later__text">
+                                <p>Мы верим, что забота о себе должна быть доступна каждому. Сделайте шаг к внутреннему
+                                    равновесию уже сегодня — остальное возьмём на себя.</p>
+                            </div>
+                            <button class="payment-later__btn general-button popup-btn" data-path="popup-change">Оформить
+                                рассрочку</button>
+                        </div>
+                        <div class="payment-methods">
+                            <div class="payment-methods__title">
+                                <p>Способы оплаты:</p>
+                            </div>
+                            <div class="payment-methods__items">
+                                <div class="payment-methods__item">
+                                    <picture class="payment-methods__item-picture">
+                                        <source srcset="assets/img/icons/pay1.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/pay1.png" alt="location">
+                                    </picture>
+                                    <p>Наличные</p>
+                                </div>
+                                <div class="payment-methods__item">
+                                    <picture class="payment-methods__item-picture">
+                                        <source srcset="assets/img/icons/pay2.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/pay2.png" alt="location">
+                                    </picture>
+                                    <p>QR-код</p>
+                                </div>
+                                <div class="payment-methods__item">
+                                    <picture class="payment-methods__item-picture">
+                                        <source srcset="assets/img/icons/pay3.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/pay3.png" alt="location">
+                                    </picture>
+                                    <p>Карты</p>
+                                </div>
+                                <div class="payment-methods__item">
+                                    <picture class="payment-methods__item-picture">
+                                        <source srcset="assets/img/icons/pay4.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/pay4.png" alt="location">
+                                    </picture>
+                                    <p>СБП</p>
+                                </div>
+                                <div class="payment-methods__item">
+                                    <picture class="payment-methods__item-picture">
+                                        <source srcset="assets/img/icons/pay5.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/pay5.png" alt="location">
+                                    </picture>
+                                    <p>Перевод</p>
+                                </div>
+                                <div class="payment-methods__item">
+                                    <picture class="payment-methods__item-picture">
+                                        <source srcset="assets/img/icons/pay6.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/pay6.png" alt="location">
+                                    </picture>
+                                    <p>Рассрочка</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="methods-section general-section general-slider">
+            <div class="general-section__container container">
+                <div class="methods-section__title section__title">
+                    <p>Методы терапии, которые мы применяем</p>
+                </div>
+                <div class="methods-section__text section__text">
+                    <p>В клинике «Баланс» применяются современные методы психотерапии, доказавшие эффективность при лечении
+                        психических расстройств — депрессии, тревожных и посттравматических состояний, панических атак,
+                        расстройств личности и зависимости. Каждый метод подбирается индивидуально, чтобы помочь пациенту
+                        стабилизировать эмоциональное состояние, вернуть контроль над мыслями и улучшить качество жизни.</p>
+                </div>
+                <div class="swiper swiper-methods">
+                    <div class="methods-section__cards swiper-wrapper">
+                        <div class="methods-section__gard swiper-slide">
+                            <picture class="methods-section__gard-picture">
+                                <source srcset="assets/img/icons/method.webp" type="image/webp">
+                                <img src="assets/img/icons/method.png" alt="banner">
+                            </picture>
+                            <div class="methods-section__gard-info">
+                                <div class="methods-section__gard-title">
+                                    <p>Когнитивно-поведенческая психотерапия </p>
+                                </div>
+                                <div class="methods-section__gard-text">
+                                    <p>Помогает изменить деструктивные мысли и поведение, научиться управлять тревогой, стрессом
+                                        и эмоциями. Один из самых результативных подходов при депрессии, ОКР и тревожных
+                                        расстройствах.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="methods-section__gard swiper-slide">
+                            <picture class="methods-section__gard-picture">
+                                <source srcset="assets/img/icons/method2.webp" type="image/webp">
+                                <img src="assets/img/icons/method2.png" alt="banner">
+                            </picture>
+                            <div class="methods-section__gard-info">
+                                <div class="methods-section__gard-title">
+                                    <p>Групповая психотерапия</p>
+                                </div>
+                                <div class="methods-section__gard-text">
+                                    <p>Общение с людьми, переживающими похожие трудности, помогает осознать свои реакции,
+                                        научиться новым способам взаимодействия и поддерживать внутренние изменения.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="methods-section__gard swiper-slide">
+                            <picture class="methods-section__gard-picture">
+                                <source srcset="assets/img/icons/method3.webp" type="image/webp">
+                                <img src="assets/img/icons/method3.png" alt="banner">
+                            </picture>
+                            <div class="methods-section__gard-info">
+                                <div class="methods-section__gard-title">
+                                    <p>Семейная психотерапия</p>
+                                </div>
+                                <div class="methods-section__gard-text">
+                                    <p>Помогает восстановить доверие, наладить общение между близкими и решить конфликты,
+                                        влияющие на психологическое состояние членов семьи.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="methods-section__gard swiper-slide">
+                            <picture class="methods-section__gard-picture">
+                                <source srcset="assets/img/icons/method4.webp" type="image/webp">
+                                <img src="assets/img/icons/method4.png" alt="banner">
+                            </picture>
+                            <div class="methods-section__gard-info">
+                                <div class="methods-section__gard-title">
+                                    <p>Гештальт-терапия</p>
+                                </div>
+                                <div class="methods-section__gard-text">
+                                    <p>Фокусируется на осознавании своих чувств и потребностей «здесь и сейчас». Помогает выйти
+                                        из замкнутых эмоциональных циклов и научиться строить гармоничные отношения.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="methods-section__gard swiper-slide">
+                            <picture class="methods-section__gard-picture">
+                                <source srcset="assets/img/icons/method5.webp" type="image/webp">
+                                <img src="assets/img/icons/method5.png" alt="banner">
+                            </picture>
+                            <div class="methods-section__gard-info">
+                                <div class="methods-section__gard-title">
+                                    <p>Арт-терапия</p>
+                                </div>
+                                <div class="methods-section__gard-text">
+                                    <p>Использует творческий процесс как инструмент для выражения чувств, снижения тревожности и
+                                        восстановления внутреннего равновесия. Эффективна при стрессах и психосоматике.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="methods-section__gard swiper-slide">
+                            <picture class="methods-section__gard-picture">
+                                <source srcset="assets/img/icons/method6.webp" type="image/webp">
+                                <img src="assets/img/icons/method6.png" alt="banner">
+                            </picture>
+                            <div class="methods-section__gard-info">
+                                <div class="methods-section__gard-title">
+                                    <p>Травматерапия</p>
+                                </div>
+                                <div class="methods-section__gard-text">
+                                    <p>Мягкие, бережные методы для работы с последствиями психологических травм. Помогает
+                                        снизить уровень тревоги, напряжения и вернуть ощущение безопасности.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="methods-section__gard swiper-slide">
+                            <picture class="methods-section__gard-picture">
+                                <source srcset="assets/img/icons/method7.webp" type="image/webp">
+                                <img src="assets/img/icons/method7.png" alt="banner">
+                            </picture>
+                            <div class="methods-section__gard-info">
+                                <div class="methods-section__gard-title">
+                                    <p>Психодрама</p>
+                                </div>
+                                <div class="methods-section__gard-text">
+                                    <p>Погружение в ролевые ситуации позволяет выразить подавленные эмоции, переосмыслить
+                                        прошлое и лучше понять себя.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="methods-section__gard swiper-slide">
+                            <picture class="methods-section__gard-picture">
+                                <source srcset="assets/img/icons/method8.webp" type="image/webp">
+                                <img src="assets/img/icons/method8.png" alt="banner">
+                            </picture>
+                            <div class="methods-section__gard-info">
+                                <div class="methods-section__gard-title">
+                                    <p>Схема-терапия</p>
+                                </div>
+                                <div class="methods-section__gard-text">
+                                    <p>Соединяет элементы когнитивной и эмоциональной
+                                        работы. Помогает осознать глубинные жизненные сценарии и изменить их, формируя здоровые
+                                        модели поведения.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="methods-section__gard swiper-slide">
+                            <picture class="methods-section__gard-picture">
+                                <source srcset="assets/img/icons/method9.webp" type="image/webp">
+                                <img src="assets/img/icons/method9.png" alt="banner">
+                            </picture>
+                            <div class="methods-section__gard-info">
+                                <div class="methods-section__gard-title">
+                                    <p>Диалектическая поведенческая терапия</p>
+                                </div>
+                                <div class="methods-section__gard-text">
+                                    <p>Используется при пограничных личностных расстройствах, самоповреждениях, эмоциональной
+                                        нестабильности. Часто в частной психиатрии применяется вместе с КПТ.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="methods-section__gard swiper-slide">
+                            <picture class="methods-section__gard-picture">
+                                <source srcset="assets/img/icons/method10.webp" type="image/webp">
+                                <img src="assets/img/icons/method10.png" alt="banner">
+                            </picture>
+                            <div class="methods-section__gard-info">
+                                <div class="methods-section__gard-title">
+                                    <p>Телесно-ориентированная терапия</p>
+                                </div>
+                                <div class="methods-section__gard-text">
+                                    <p>Помогает работать с психосоматикой, хроническим стрессом, зажимами. Хорошо воспринимается
+                                        клиентами, ищущими «мягкие» методы.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="methods-section__gard swiper-slide">
+                            <picture class="methods-section__gard-picture">
+                                <source srcset="assets/img/icons/method11.webp" type="image/webp">
+                                <img src="assets/img/icons/method11.png" alt="banner">
+                            </picture>
+                            <div class="methods-section__gard-info">
+                                <div class="methods-section__gard-title">
+                                    <p>Нейропсихологическая коррекция / когнитивная реабилитация</p>
+                                </div>
+                                <div class="methods-section__gard-text">
+                                    <p>Уместна, если клиника работает с пациентами после травм, инсультов, длительных депрессий,
+                                        когнитивных нарушений.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="methods-section__gard swiper-slide">
+                            <picture class="methods-section__gard-picture">
+                                <source srcset="assets/img/icons/method12.webp" type="image/webp">
+                                <img src="assets/img/icons/method12.png" alt="banner">
+                            </picture>
+                            <div class="methods-section__gard-info">
+                                <div class="methods-section__gard-title">
+                                    <p>Медикаментозное сопровождение</p>
+                                </div>
+                                <div class="methods-section__gard-text">
+                                    <p>Не психотерапевтический метод, но обязательный компонент психиатрической практики. Можно
+                                        обозначить как «включение медикаментозной поддержки при необходимости».</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-button-next--swiper-methods"></div>
+                <div class="swiper-button-prev swiper-button-prev--swiper-methods"></div>
+            </div>
+        </section>
+        <section class="board general-section">
+            <div class="container">
+                <div class="board__main">
+                    <div class="board__items">
+                        <div class="board__item">
+                            <div class="board__item-top">
+                                <div class="board__item-title">
+                                    <p>Проверьте свое психоэмоциональное состояние</p>
+                                </div>
+                                <div class="board__item-text">
+                                    <p>Быстро и безопасно оцениваем ваше эмоциональное состояние. После теста вы получите
+                                        результаты и рекомендации, какой специалист и метод терапии подойдут именно вам.</p>
+                                </div>
+                                <div class="board__item-condition">
+                                    <div class="item-condition">
+                                        <picture class="item-condition-picture">
+                                            <source srcset="assets/img/icons/condition.webp" type="image/webp">
+                                            <img src="assets/img/icons/condition.png" alt="banner">
+                                        </picture>
+        
+                                        <div class="item-condition__main">
+                                            <div class="item-condition__title">
+                                                <p>Cостояние пациента после завершения теста:</p>
+                                            </div>
+                                            <div class="item-condition__items">
+                                                <div class="item-condition__item">
+                                                    <span></span>
+                                                    <p>— хорошее</p>
+                                                </div>
+                                                <div class="item-condition__item">
+                                                    <span></span>
+                                                    <p>— нормальное</p>
+                                                </div>
+                                                <div class="item-condition__item">
+                                                    <span></span>
+                                                    <p>— рискованное</p>
+                                                </div>
+                                                <div class="item-condition__item">
+                                                    <span></span>
+                                                    <p>— тяжелое</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="general-button popup-btn board__item-btn" data-path="popup-change">
+                                Пройти тест
+                            </button>
+                        </div>
+                        <div class="board__item">
+                            <picture class="iboard__item-picture">
+                                <source srcset="assets/img/icons/board-img.webp" type="image/webp">
+                                <img src="assets/img/icons/board-img.jpg" alt="banner">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <picture class="board__picture">
+                <source srcset="assets/img/icons/board.webp" type="image/webp">
+                <img src="assets/img/icons/board.png" alt="banner">
+            </picture>
+        </section>
+        <section class="doctors-section general-section">
+            <div class="container">
+                <div class="doctors-section__subtitle section__subtitle">
+                    <p>Специалисты</p>
+                </div>
+                <div class="doctors-section__title section__title">
+                    <p>Познакомьтесь с нашей командой</p>
+                </div>
+                <div class="doctors-section__text section__text">
+                    <p>Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты
+                        или прототипы содержимым. Это тестовый контент, который не должен нести никакого смысла, лишь показать
+                        наличие самого текста.</p>
+                </div>
+                <div class="doctors-section__cards">
+                    <a href="#" class="doctors-section__card">
+                        <div class="doctors-section__card-top">
+                            <div class="doctors-section__card-name">
+                                Родионова Мария Макаровна
+                            </div>
+                            <div class="doctors-section__card-subtitle">
+                                Квалификация:
+                            </div>
+                            <div class="doctors-section__card-job">
+                                Психиатр, психотерапевт, нарколог, детский нарколог
+                            </div>
+                            <div class="doctors-section__card-experience">
+                                Стаж работы (лет)<span>: 26</span>
+                            </div>
+                        </div>
+                        <picture class="doctors-section__card-picture">
+                            <source srcset="assets/img/icons/docc.webp" type="image/webp">
+                            <img src="assets/img/icons/docc.png" alt="banner">
+                        </picture>
+                        <div class="doctors-section__card-btns">
+                            <button class="doctors-section__card-btn general-button popup-btn" data-path="popup-change">
+                                Записаться
+                            </button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors-section__card">
+                        <div class="doctors-section__card-top">
+                            <div class="doctors-section__card-name">
+                                Родионова Мария Макаровна
+                            </div>
+                            <div class="doctors-section__card-subtitle">
+                                Квалификация:
+                            </div>
+                            <div class="doctors-section__card-job">
+                                Психиатр, психотерапевт, нарколог, детский нарколог
+                            </div>
+                            <div class="doctors-section__card-experience">
+                                Стаж работы (лет)<span>: 26</span>
+                            </div>
+                        </div>
+                        <picture class="doctors-section__card-picture">
+                            <source srcset="assets/img/icons/docc.webp" type="image/webp">
+                            <img src="assets/img/icons/docc.png" alt="banner">
+                        </picture>
+                        <div class="doctors-section__card-btns">
+                            <button class="doctors-section__card-btn general-button popup-btn" data-path="popup-change">
+                                Записаться
+                            </button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors-section__card">
+                        <div class="doctors-section__card-top">
+                            <div class="doctors-section__card-name">
+                                Родионова Мария Макаровна
+                            </div>
+                            <div class="doctors-section__card-subtitle">
+                                Квалификация:
+                            </div>
+                            <div class="doctors-section__card-job">
+                                Психиатр, психотерапевт, нарколог, детский нарколог
+                            </div>
+                            <div class="doctors-section__card-experience">
+                                Стаж работы (лет)<span>: 26</span>
+                            </div>
+                        </div>
+                        <picture class="doctors-section__card-picture">
+                            <source srcset="assets/img/icons/docc.webp" type="image/webp">
+                            <img src="assets/img/icons/docc.png" alt="banner">
+                        </picture>
+                        <div class="doctors-section__card-btns">
+                            <button class="doctors-section__card-btn general-button popup-btn" data-path="popup-change">
+                                Записаться
+                            </button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors-section__card">
+                        <div class="doctors-section__card-top">
+                            <div class="doctors-section__card-name">
+                                Родионова Мария Макаровна
+                            </div>
+                            <div class="doctors-section__card-subtitle">
+                                Квалификация:
+                            </div>
+                            <div class="doctors-section__card-job">
+                                Психиатр, психотерапевт, нарколог, детский нарколог
+                            </div>
+                            <div class="doctors-section__card-experience">
+                                Стаж работы (лет)<span>: 26</span>
+                            </div>
+                        </div>
+                        <picture class="doctors-section__card-picture">
+                            <source srcset="assets/img/icons/docc.webp" type="image/webp">
+                            <img src="assets/img/icons/docc.png" alt="banner">
+                        </picture>
+                        <div class="doctors-section__card-btns">
+                            <button class="doctors-section__card-btn general-button popup-btn" data-path="popup-change">
+                                Записаться
+                            </button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors-section__card">
+                        <div class="doctors-section__card-top">
+                            <div class="doctors-section__card-name">
+                                Родионова Мария Макаровна
+                            </div>
+                            <div class="doctors-section__card-subtitle">
+                                Квалификация:
+                            </div>
+                            <div class="doctors-section__card-job">
+                                Психиатр, психотерапевт, нарколог, детский нарколог
+                            </div>
+                            <div class="doctors-section__card-experience">
+                                Стаж работы (лет)<span>: 26</span>
+                            </div>
+                        </div>
+                        <picture class="doctors-section__card-picture">
+                            <source srcset="assets/img/icons/docc.webp" type="image/webp">
+                            <img src="assets/img/icons/docc.png" alt="banner">
+                        </picture>
+                        <div class="doctors-section__card-btns">
+                            <button class="doctors-section__card-btn general-button popup-btn" data-path="popup-change">
+                                Записаться
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="section__btns">
+                    <a href="#" class="section__btn general-button">
+                        Записаться
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="reviews__section general-section general-slider">
+            <div class="general-section__container container">
+                <div class="reviews__section__subtitle section__subtitle">
+                    <p>Отзывы</p>
+                </div>
+                <div class="reviews__section__title section__title">
+                    <p>Что говорят наши клиенты</p>
+                </div>
+                <div class="reviews__top-wrap">
+                    <div class="reviews__top">
+                        <div class="reviews__left">
+                            <div class="reviews__counts">
+                                <div class="reviews__counts-items">
+                                    <div class="reviews__counts-item">
+                                        <p>4.8</p>
+                                        <picture>
+                                            <source srcset="assets/img/icons/star.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/star.png" alt="location">
+                                        </picture>
+                                    </div>
+                                    <div class="reviews__counts-item">
+                                        <span class="reviews__counts-line"></span>
+                                    </div>
+                                    <div class="reviews__counts-item">
+                                        <p><span class="reviews__counts-num">270</span> отзывов</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews__right">
+                            <div class="reviews__sites">
+                                <div class="reviews__sites-items">
+                                    <a href="#" class="reviews__sites-item">
+                                        <picture>
+                                            <source srcset="assets/img/icons/sites1.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/sites1.png" alt="location">
+                                        </picture>
+                                        <p>4.9</p>
+                                    </a>
+                                    <a href="#" class="reviews__sites-item">
+                                        <picture>
+                                            <source srcset="assets/img/icons/sites2.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/sites2.png" alt="location">
+                                        </picture>
+                                        <p>4.7</p>
+                                    </a>
+                                    <a href="#" class="reviews__sites-item">
+                                        <picture>
+                                            <source srcset="assets/img/icons/sites3.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/sites3.png" alt="location">
+                                        </picture>
+                                        <p>5.0</p>
+                                    </a>
+                                    <a href="#" class="reviews__sites-item">
+                                        <picture>
+                                            <source srcset="assets/img/icons/sites4.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/sites4.png" alt="location">
+                                        </picture>
+                                        <p>4.7</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper swiper-reviews">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="reviews__item">
+                                <div class="reviews__item-top">
+                                    <div class="reviews__item-info">
+                                        <picture>
+                                            <source srcset="assets/img/icons/review.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/review.png" alt="location">
+                                        </picture>
+                                        <div class="reviews__item-fio">
+                                            <div class="reviews__item-name">
+                                                <p>Артем</p>
+                                            </div>
+                                            <div class="reviews__item-tag">
+                                                <p>Лечение от алкоголизма</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__item-stars">
+                                        <picture>
+                                            <source srcset="assets/img/icons/stars.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/stars.png" alt="location">
+                                        </picture>
+                                        <p>10.11.2025</p>
+                                    </div>
+                                </div>
+                                <div class="reviews__item-bottom read-more">
+                                    <div class="reviews__item-text read-more__text">
+                                        Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро
+                                        заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести
+                                        никакого смысла, лишь показать наличие самого текста смысла, лишь показать наличие
+                                        самого
+                                        текста...
+                                    </div>
+                                    <button class="reviews__item-btn read-more__btn">Читать дальше</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reviews__item">
+                                <div class="reviews__item-top">
+                                    <div class="reviews__item-info">
+                                        <picture>
+                                            <source srcset="assets/img/icons/review.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/review.png" alt="location">
+                                        </picture>
+                                        <div class="reviews__item-fio">
+                                            <div class="reviews__item-name">
+                                                <p>Артем</p>
+                                            </div>
+                                            <div class="reviews__item-tag">
+                                                <p>Лечение от алкоголизма</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__item-stars">
+                                        <picture>
+                                            <source srcset="assets/img/icons/stars.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/stars.png" alt="location">
+                                        </picture>
+                                        <p>10.11.2025</p>
+                                    </div>
+                                </div>
+                                <div class="reviews__item-bottom read-more">
+                                    <div class="reviews__item-text read-more__text">
+                                        Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро
+                                        заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести
+                                        никакого смысла, лишь показать наличие самого текста смысла, лишь показать наличие
+                                        самого
+                                        текста...
+                                    </div>
+                                    <button class="reviews__item-btn read-more__btn">Читать дальше</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reviews__item">
+                                <div class="reviews__item-top">
+                                    <div class="reviews__item-info">
+                                        <picture>
+                                            <source srcset="assets/img/icons/review.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/review.png" alt="location">
+                                        </picture>
+                                        <div class="reviews__item-fio">
+                                            <div class="reviews__item-name">
+                                                <p>Артем</p>
+                                            </div>
+                                            <div class="reviews__item-tag">
+                                                <p>Лечение от алкоголизма</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__item-stars">
+                                        <picture>
+                                            <source srcset="assets/img/icons/stars.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/stars.png" alt="location">
+                                        </picture>
+                                        <p>10.11.2025</p>
+                                    </div>
+                                </div>
+                                <div class="reviews__item-bottom read-more">
+                                    <div class="reviews__item-text read-more__text">
+                                        Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро
+                                        заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести
+                                        никакого смысла, лишь показать наличие самого текста смысла, лишь показать наличие
+                                        самого
+                                        текста...
+                                    </div>
+                                    <button class="reviews__item-btn read-more__btn">Читать дальше</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reviews__item">
+                                <div class="reviews__item-top">
+                                    <div class="reviews__item-info">
+                                        <picture>
+                                            <source srcset="assets/img/icons/review.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/review.png" alt="location">
+                                        </picture>
+                                        <div class="reviews__item-fio">
+                                            <div class="reviews__item-name">
+                                                <p>Артем</p>
+                                            </div>
+                                            <div class="reviews__item-tag">
+                                                <p>Лечение от алкоголизма</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__item-stars">
+                                        <picture>
+                                            <source srcset="assets/img/icons/stars.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/stars.png" alt="location">
+                                        </picture>
+                                        <p>10.11.2025</p>
+                                    </div>
+                                </div>
+                                <div class="reviews__item-bottom read-more">
+                                    <div class="reviews__item-text read-more__text">
+                                        Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро
+                                        заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести
+                                        никакого смысла, лишь показать наличие самого текста смысла, лишь показать наличие
+                                        самого
+                                        текста...
+                                    </div>
+                                    <button class="reviews__item-btn read-more__btn">Читать дальше</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reviews__item">
+                                <div class="reviews__item-top">
+                                    <div class="reviews__item-info">
+                                        <picture>
+                                            <source srcset="assets/img/icons/review.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/review.png" alt="location">
+                                        </picture>
+                                        <div class="reviews__item-fio">
+                                            <div class="reviews__item-name">
+                                                <p>Артем</p>
+                                            </div>
+                                            <div class="reviews__item-tag">
+                                                <p>Лечение от алкоголизма</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__item-stars">
+                                        <picture>
+                                            <source srcset="assets/img/icons/stars.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/stars.png" alt="location">
+                                        </picture>
+                                        <p>10.11.2025</p>
+                                    </div>
+                                </div>
+                                <div class="reviews__item-bottom read-more">
+                                    <div class="reviews__item-text read-more__text">
+                                        Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро
+                                        заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести
+                                        никакого смысла, лишь показать наличие самого текста смысла, лишь показать наличие
+                                        самого
+                                        текста...
+                                    </div>
+                                    <button class="reviews__item-btn read-more__btn">Читать дальше</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reviews__item">
+                                <div class="reviews__item-top">
+                                    <div class="reviews__item-info">
+                                        <picture>
+                                            <source srcset="assets/img/icons/review.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/review.png" alt="location">
+                                        </picture>
+                                        <div class="reviews__item-fio">
+                                            <div class="reviews__item-name">
+                                                <p>Артем</p>
+                                            </div>
+                                            <div class="reviews__item-tag">
+                                                <p>Лечение от алкоголизма</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__item-stars">
+                                        <picture>
+                                            <source srcset="assets/img/icons/stars.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/stars.png" alt="location">
+                                        </picture>
+                                        <p>10.11.2025</p>
+                                    </div>
+                                </div>
+                                <div class="reviews__item-bottom read-more">
+                                    <div class="reviews__item-text read-more__text">
+                                        Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро
+                                        заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести
+                                        никакого смысла, лишь показать наличие самого текста смысла, лишь показать наличие
+                                        самого
+                                        текста...
+                                    </div>
+                                    <button class="reviews__item-btn read-more__btn">Читать дальше</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reviews__item">
+                                <div class="reviews__item-top">
+                                    <div class="reviews__item-info">
+                                        <picture>
+                                            <source srcset="assets/img/icons/review.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/review.png" alt="location">
+                                        </picture>
+                                        <div class="reviews__item-fio">
+                                            <div class="reviews__item-name">
+                                                <p>Артем</p>
+                                            </div>
+                                            <div class="reviews__item-tag">
+                                                <p>Лечение от алкоголизма</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__item-stars">
+                                        <picture>
+                                            <source srcset="assets/img/icons/stars.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/stars.png" alt="location">
+                                        </picture>
+                                        <p>10.11.2025</p>
+                                    </div>
+                                </div>
+                                <div class="reviews__item-bottom read-more">
+                                    <div class="reviews__item-text read-more__text">
+                                        Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро
+                                        заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести
+                                        никакого смысла, лишь показать наличие самого текста смысла, лишь показать наличие
+                                        самого
+                                        текста...
+                                    </div>
+                                    <button class="reviews__item-btn read-more__btn">Читать дальше</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reviews__item">
+                                <div class="reviews__item-top">
+                                    <div class="reviews__item-info">
+                                        <picture>
+                                            <source srcset="assets/img/icons/review.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/review.png" alt="location">
+                                        </picture>
+                                        <div class="reviews__item-fio">
+                                            <div class="reviews__item-name">
+                                                <p>Артем</p>
+                                            </div>
+                                            <div class="reviews__item-tag">
+                                                <p>Лечение от алкоголизма</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__item-stars">
+                                        <picture>
+                                            <source srcset="assets/img/icons/stars.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/stars.png" alt="location">
+                                        </picture>
+                                        <p>10.11.2025</p>
+                                    </div>
+                                </div>
+                                <div class="reviews__item-bottom read-more">
+                                    <div class="reviews__item-text read-more__text">
+                                        Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро
+                                        заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести
+                                        никакого смысла, лишь показать наличие самого текста смысла, лишь показать наличие
+                                        самого
+                                        текста...
+                                    </div>
+                                    <button class="reviews__item-btn read-more__btn">Читать дальше</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reviews__item">
+                                <div class="reviews__item-top">
+                                    <div class="reviews__item-info">
+                                        <picture>
+                                            <source srcset="assets/img/icons/review.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/review.png" alt="location">
+                                        </picture>
+                                        <div class="reviews__item-fio">
+                                            <div class="reviews__item-name">
+                                                <p>Артем</p>
+                                            </div>
+                                            <div class="reviews__item-tag">
+                                                <p>Лечение от алкоголизма</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__item-stars">
+                                        <picture>
+                                            <source srcset="assets/img/icons/stars.svg" type="image/svg+xml">
+                                            <img src="assets/img/icons/stars.png" alt="location">
+                                        </picture>
+                                        <p>10.11.2025</p>
+                                    </div>
+                                </div>
+                                <div class="reviews__item-bottom read-more">
+                                    <div class="reviews__item-text read-more__text">
+                                        Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро
+                                        заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести
+                                        никакого смысла, лишь показать наличие самого текста смысла, лишь показать наличие
+                                        самого
+                                        текста...
+                                    </div>
+                                    <button class="reviews__item-btn read-more__btn">Читать дальше</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-button-next--swiper-reviews"></div>
+                <div class="swiper-button-prev swiper-button-prev--swiper-reviews"></div>
+                <div class="swiper-pagination swiper-pagination--reviews"></div>
+            </div>
+        </section>
+        <section class="photo__section general-section general-slider">
+            <div class="general-section__container container">
+                <div class="photo__section__subtitle section__subtitle">
+                    <p>Фотографии</p>
+                </div>
+                <div class="photo__section__title section__title">
+                    <p>Галерея нашей клиники</p>
+                </div>
+                <div class="swiper swiper-photo">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="assets/img/icons/photo.jpg" class="photo__item" data-fancybox="gallery">
+                                <picture class="photo__item-picture">
+                                    <source srcset="assets/img/icons/photo.webp" type="image/webp">
+                                    <img src="assets/img/icons/photo.jpg" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="assets/img/icons/photo.jpg" class="photo__item" data-fancybox="gallery">
+                                <picture class="photo__item-picture">
+                                    <source srcset="assets/img/icons/photo.webp" type="image/webp">
+                                    <img src="assets/img/icons/photo.jpg" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="assets/img/icons/photo.jpg" class="photo__item" data-fancybox="gallery">
+                                <picture class="photo__item-picture">
+                                    <source srcset="assets/img/icons/photo.webp" type="image/webp">
+                                    <img src="assets/img/icons/photo.jpg" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="assets/img/icons/photo.jpg" class="photo__item" data-fancybox="gallery">
+                                <picture class="photo__item-picture">
+                                    <source srcset="assets/img/icons/photo.webp" type="image/webp">
+                                    <img src="assets/img/icons/photo.jpg" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="assets/img/icons/photo.jpg" class="photo__item" data-fancybox="gallery">
+                                <picture class="photo__item-picture">
+                                    <source srcset="assets/img/icons/photo.webp" type="image/webp">
+                                    <img src="assets/img/icons/photo.jpg" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="assets/img/icons/photo.jpg" class="photo__item" data-fancybox="gallery">
+                                <picture class="photo__item-picture">
+                                    <source srcset="assets/img/icons/photo.webp" type="image/webp">
+                                    <img src="assets/img/icons/photo.jpg" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="assets/img/icons/photo.jpg" class="photo__item" data-fancybox="gallery">
+                                <picture class="photo__item-picture">
+                                    <source srcset="assets/img/icons/photo.webp" type="image/webp">
+                                    <img src="assets/img/icons/photo.jpg" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section__btns">
+                    <a href="#" class="section__btn general-button">
+                        Больше фотографий
+                    </a>
+                </div>
+                <div class="swiper-button-next swiper-button-next--swiper-photo"></div>
+                <div class="swiper-button-prev swiper-button-prev--swiper-photo"></div>
+            </div>
+        </section>
+        <section class="licenses__section general-section">
+            <div class="container">
+                <div class="licenses__section-title section__title">
+                    <p>Лицензии и сертификаты</p>
+                </div>
+                <div class="flicenses__section-text section__text">
+                    <p>Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты
+                        или прототипы содержимым. Это тестовый контент, который не должен нести никакого смысла, лишь показать
+                        наличие самого текста или продемонстрировать типографику в деле.</p>
+                </div>
+                <div class="licenses__section-wrap">
+                    <a href="assets/img/icons/licenses.jpg" class="licenses__item" data-fancybox="gallery">
+                        <div class="licenses__item-main">
+                            <picture class="licenses__item-picture">
+                                <source srcset="assets/img/icons/licenses.webp" type="image/webp">
+                                <img src="assets/img/icons/licenses.jpg" alt="">
+                            </picture>
+                        </div>
+                    </a>
+                    <a href="assets/img/icons/licenses.jpg" class="licenses__item" data-fancybox="gallery">
+                        <div class="licenses__item-main">
+                            <picture class="licenses__item-picture">
+                                <source srcset="assets/img/icons/licenses.webp" type="image/webp">
+                                <img src="assets/img/icons/licenses.jpg" alt="">
+                            </picture>
+                        </div>
+                    </a>
+                    <a href="assets/img/icons/licenses.jpg" class="licenses__item" data-fancybox="gallery">
+                        <div class="licenses__item-main">
+                            <picture class="licenses__item-picture">
+                                <source srcset="assets/img/icons/licenses.webp" type="image/webp">
+                                <img src="assets/img/icons/licenses.jpg" alt="">
+                            </picture>
+                        </div>
+                    </a>
+                    <a href="assets/img/icons/licenses.jpg" class="licenses__item" data-fancybox="gallery">
+                        <div class="licenses__item-main">
+                            <picture class="licenses__item-picture">
+                                <source srcset="assets/img/icons/licenses.webp" type="image/webp">
+                                <img src="assets/img/icons/licenses.jpg" alt="">
+                            </picture>
+                        </div>
+                    </a>
+                </div>
+                <div class="section__btns">
+                    <a href="#" class="section__btn general-button">
+                        Все сертификаты
+                    </a>
+                </div>
+            </div>
+        </section>    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <a href="#">
+                    <picture class="footer__logo">
+                        <source srcset="assets/img/icons/footer-logo.webp" type="image/webp">
+                        <img src="assets/img/icons/footer-logo.png" alt="banner">
+                    </picture>
+                </a>
+                <div class="footer__links">
+                    <div class="footer__links-wrap">
+                        <a class="footer__link" href="#">О нас</a>
+                        <a class="footer__link" href="#">Цены</a>
+                        <a class="footer__link" href="#">Специалисты</a>
+                        <a class="footer__link" href="#">Статьи</a>
+                        <a class="footer__link" href="#">Контакты</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__main">
+                <div class="footer__info">
+                    <p class="footer__info-text">«Баланс» — частная психиатрическая клиника в Нижнем Новгороде, где
+                        профессионализм сочетается с
+                        заботой. Мы помогаем восстановить спокойствие, энергию и уверенность. Ваше психическое здоровье —
+                        наша ответственность.</p>
+                    <div class="footer__info-main">
+                        <div class="footer__info-btns">
+                            <button class="footer__info-btn popup-btn" data-path="popup-change">
+                                <picture>
+                                    <source srcset="assets/img/icons/btn-1.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/btn-1.png" alt="close_popup">
+                                </picture>
+                                Записаться на прием к врачу
+                            </button>
+                            <button class="footer__info-btn popup-btn" data-path="popup-change">
+                                <picture>
+                                    <source srcset="assets/img/icons/btn-2.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/btn-2.png" alt="close_popup">
+                                </picture>
+                                Вызов врача на дом
+                            </button>
+                            <button class="footer__info-btn popup-btn" data-path="popup-change">
+                                <picture>
+                                    <source srcset="assets/img/icons/btn-3.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/btn-3.png" alt="close_popup">
+                                </picture>
+                                Тест на психическое состояние
+                            </button>
+                        </div>
+                        <div class="footer__connection">
+                            <p class="footer__connection-title">Мы работаем круглосуточно
+                                и ждем вашего звонка!</p>
+                            <div class="footer__connection-address">
+                                <span>Адрес:</span>
+                                <button class="popup-btn" data-path="popup-city">Нижний Новгород, ул. Родионова,
+                                    187В</button>
+                            </div>
+                            <div class="footer__connection-phone">
+                                <span>Телефон:</span>
+                                <a href="tel:+7 (495) 225-81-58">+7 (495) 225-81-58</a>
+                            </div>
+                            <div class="footer__connection-mail">
+                                <span>Телефон:</span>
+                                <a href="mailto:info@rasstroystv.ru">info@rasstroystv.ru</a>
+                            </div>
+                        </div>
+                        <div class="social-networks">
+                            <div class="social-networks__item">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/vk2.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/vk2.png" alt="location">
+                                </picture>
+                            </div>
+                            <div class="social-networks__item">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/ok2.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/ok2.png" alt="location">
+                                </picture>
+                            </div>
+                            <div class="social-networks__item">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/tg2.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/tg2.png" alt="location">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__services">
+                    <div class="footer__tab-wrap tab-wrap">
+                        <div class="footer__tab-main tab-main">
+                            <div class="footer__tab-btns tab-btns">
+                                <button class="footer__tab-btn tab-btn active" data-tab="rev-1">Лечение расстройств</button>
+                                <button class="footer__tab-btn tab-btn" data-tab="rev-2">Лечение зависимостей</button>
+                                <button class="footer__tab-btn tab-btn" data-tab="rev-3">Консультация врача</button>
+                                <button class="footer__tab-btn tab-btn" data-tab="rev-4">Капельницы</button>
+                                <button class="footer__tab-btn tab-btn" data-tab="rev-5">Выездные услуги</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__tab-contents">
+                        <div class="footer__tab-content tab-content active" data-tab="rev-1">
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="footer__tab-content tab-content" data-tab="rev-2">
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="footer__tab-content tab-content" data-tab="rev-3">
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__services-bottom">
+                        <div class="footer__methods services-bottom__item">
+                            <div class="footer__methods-title">
+                                <p>Способы оплаты:</p>
+                            </div>
+                            <div class="footer__methods-items">
+                                <div class="footer__methods-item">
+                                    <picture class="footer__methods-picture">
+                                        <source srcset="assets/img/icons/methods1.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/methods11.png" alt="location">
+                                    </picture>
+                                    <p>Наличные</p>
+                                </div>
+                                <div class="footer__methods-item">
+                                    <picture class="footer__methods-picture">
+                                        <source srcset="assets/img/icons/methods2.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/methods22.png" alt="location">
+                                    </picture>
+                                    <p>QR-код</p>
+                                </div>
+                                <div class="footer__methods-item">
+                                    <picture class="footer__methods-picture">
+                                        <source srcset="assets/img/icons/methods3.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/methods33.png" alt="location">
+                                    </picture>
+                                    <p>Карты</p>
+                                </div>
+                                <div class="footer__methods-item">
+                                    <picture class="footer__methods-picture">
+                                        <source srcset="assets/img/icons/methods4.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/methods44.png" alt="location">
+                                    </picture>
+                                    <p>СБП</p>
+                                </div>
+                                <div class="footer__methods-item">
+                                    <picture class="footer__methods-picture">
+                                        <source srcset="assets/img/icons/methods5.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/methods55.png" alt="location">
+                                    </picture>
+                                    <p>Перевод</p>
+                                </div>
+                                <div class="footer__methods-item">
+                                    <picture class="footer__methods-picture">
+                                        <source srcset="assets/img/icons/methods6.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/methods66.png" alt="location">
+                                    </picture>
+                                    <p>Рассрочка</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services-bottom__links services-bottom__item">
+                            <a class="services-bottom__link" href="#">Политика конфиденциальности</a>
+                            <a class="services-bottom__link" href="#">Пользовательское соглашение</a>
+                            <a class="services-bottom__link" href="#">Политика обработки персональных данных</a>
+                            <a class="services-bottom__link" href="#">Согласие на обработку персональных данных</a>
+                            <a class="services-bottom__link" href="#">Согласие на обработку персональных данных
+                                с помощью сервиса «Яндекс.Метрика»</a>
+                        </div>
+                        <div class="services-bottom__ltext services-bottom__item">
+                            <p>Вся информация на сайте не является публичной офертой, несёт сугубо информационный характер,
+                                и не служит для постановки диагноза и назначения лечения. Есть противопоказания, необходимо
+                                проконсультироваться с врачом. Консультационные услуги, оказываемые по телефону,
+                                мессенджерам
+                                и в соцсетях носят исключительно информационный характер и не являются медицинскими
+                                услугами. Оставаясь на сайте вы соглашаетесь
+                                на использование cookies. 18+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/build/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper.js"></script>
+    <button class="scroll-top">
+        <svg width="18" height="12" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 7.5L7 1.5L13 7.5" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+    </button>
+    <!-- Pop-up change 1 -->
+    <div class="popup" data-target="popup-change">
+        <div class="popup__body">
+            <div class="popup__content popup-change__content">
+                <picture class="close-popup close-popup-btn popup-change__close">
+                    <source srcset="assets/img/icons/exit.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/exit.png" alt="close_popup">
+                </picture>
+                <div class="popup-change__text">
+                    <p class="popup-change__title original-title">Обратиться за помощью</p>
+                    <p class="popup-change__subtitle">Оставьте свой номер или свяжитесь с нами по номеру горячей линии,
+                        во время звонка опишите нам ситуацию - врач подготовит все самое необходимое и незамедлительно
+                        отправится к вам.</p>
+                </div>
+                <form class="form popup-change__form">
+                    <input name="title_url_message" type="hidden" value=""> <input type="tel" name="params[phone][]"
+                        class="popup-change__input popup-input blue" placeholder="Ваш телефон*" required>
+                    <div class="form__btns">
+                        <button type="submit"
+                            class="general-button popup-input popup-change__btn"><span>Отправить</span></button>
+                        <div class="politic white">
+                            <input type="checkbox" id="politic1" checked="">
+                            <label class="checkbox">
+                                <input type="checkbox" checked="checked">
+                                <span class="checkbox-mark"></span>
+                                <span>Отправляя заявку, вы соглашаетесь
+                                    с <a href="#">политикой конфиденциальности</a>.</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form__bottom">
+                        <p class="form__bottom-text">или позвоните</p>
+                        <div class="form__bottom-phones">
+                            <a href="tel:+7 (495) 225-81-58">+7 (495) 225-81-58</a>
+                            <p>Горячая линия помощи - Круглосуточно (24/7)</p>
+                        </div>
+                    </div>
+                </form>
+                <picture class="popup__content-picture">
+                    <source srcset="assets/img/icons/popup-change.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/popup-change.png" alt="">
+                </picture>
+            </div>
+        </div>
+    </div>
+    <div class="popup" data-target="popup-question">
+        <div class="popup__body">
+            <div class="popup__content popup-change__content">
+                <picture class="close-popup close-popup-btn popup-change__close">
+                    <source srcset="assets/img/icons/exit.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/exit.png" alt="close_popup">
+                </picture>
+                <div class="popup-change__text">
+                    <p class="popup-change__title original-title">Обратиться за помощью</p>
+                    <p class="popup-change__subtitle">Оставьте свой номер или свяжитесь с нами по номеру горячей линии,
+                        во время звонка опишите нам ситуацию - врач подготовит все самое необходимое и незамедлительно
+                        отправится к вам.</p>
+                </div>
+                <form class="form popup-change__form">
+                    <input name="title_url_message" type="hidden" value=""> <input type="tel" name="params[phone][]"
+                        class="popup-change__input popup-input blue" placeholder="Ваш телефон*" required>
+                    <div class="form__btns">
+                        <button type="submit"
+                            class="general-button popup-input popup-change__btn"><span>Отправить</span></button>
+                        <div class="politic white">
+                            <input type="checkbox" id="politic1" checked="">
+                            <label class="checkbox">
+                                <input type="checkbox" checked="checked">
+                                <span class="checkbox-mark"></span>
+                                <span>Отправляя заявку, вы соглашаетесь
+                                    с <a href="#">политикой конфиденциальности</a>.</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form__bottom">
+                        <p class="form__bottom-text">или позвоните</p>
+                        <div class="form__bottom-phones">
+                            <a href="tel:+7 (495) 225-81-58">+7 (495) 225-81-58</a>
+                            <p>Горячая линия помощи - Круглосуточно (24/7)</p>
+                        </div>
+                    </div>
+                </form>
+                <picture class="popup__content-picture">
+                    <source srcset="assets/img/icons/popup-change.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/popup-change.png" alt="">
+                </picture>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <div class="popup popup-response" data-modal-ok="result-wrapper" data-modal-err="result-wrapper"
+        data-modal-open="open active">
+        <div class="popup__body">
+            <div class="popup__content popup-response__content">
+                <picture class="close-popup close-popup-btn">
+                    <source srcset="assets/img/icons/popup-close.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/popup-close.png" alt="close_popup">
+                </picture>
+    
+                <div class="result-wrapper popup-response__wrapper">
+                    <h3>Ваша заявка принята</h3>
+                    <p>Он будет опубликован после проверки модератором.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- popup city 1 -->
+    <div class="popup" data-target="popup-city">
+        <div class="popup__body">
+            <div class="popup__content popup-city__content search-wrapper">
+                <picture class="close-popup close-popup-btn popup-change__close">
+                    <source srcset="assets/img/icons/exit.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/exit.png" alt="close_popup">
+                </picture>
+                <p class="popup-city__title title-h3">выберите ваш город</p>
+    
+                <form class="popup__search_form popup-city__form">
+                    <input type="search" placeholder="Введите ваш город" required class="popup__search_input input">
+                    <img src="assets/img/icons/search.svg" alt="search" class="popup__search_img">
+                </form>
+    
+                <div class="popup__search popup-city__search ">
+                    <ul class="popup__search_list popup-city__list">
+                        <li><a href="#" class="">Москва</a></li>
+                        <li><a href="#" class="">Нижний Новгород</a></li>
+                        <li><a href="#" class="">Оренбург</a></li>
+                        <li><a href="#" class="">Уфа</a></li>
+                        <li><a href="#" class="">Старый Оскол</a></li>
+                        <li><a href="#" class="">Санкт-Петербург</a></li>
+                        <li><a href="#" class="">Саранск</a></li>
+                        <li><a href="#" class="">Севастополь</a></li>
+                        <li><a href="#" class="">Волгоград</a></li>
+                        <li><a href="#" class="">Архангельск</a></li>
+                        <li><a href="#" class="">Краснодар</a></li>
+                        <li><a href="#" class="">Севастополь</a></li>
+                        <li><a href="#" class="">Архангельск</a></li>
+                        <li><a href="#" class="">Краснодар</a></li>
+                        <li><a href="#" class="">Севастополь</a></li>
+                    </ul>
+                </div>
+                <div class="popup-city__search-wrap">
+                    <div class="popup__search popup__search-result popup-city__search-result none">
+                        <p class="no-results-message popup-city__no-results-message none">По вашему запросу города
+                            не найдены</p>
+                        <ul class="search-list popup__search_list popup-city__list_result">
+                            <li><a href="#" class="search-name">Ростов-на-Дону</a></li>
+                            <li><a href="#" class="search-name">Самара</a></li>
+                            <li><a href="#" class="search-name">Владивосток</a></li>
+                            <li><a href="#" class="search-name">Краснодар</a></li>
+                            <li><a href="#" class="search-name">Красноярск</a></li>
+                            <li><a href="#" class="search-name">Комсомольск-на-Амуре</a></li>
+                            <li><a href="#" class="search-name">Москва</a></li>
+                            <li><a href="#" class="search-name">Калининград</a></li>
+                            <li><a href="#" class="search-name">Благовещенск</a></li>
+                            <li><a href="#" class="search-name">Санкт-Петербург</a></li>
+                            <li><a href="#" class="search-name">Хабаровск</a></li>
+                            <li><a href="#" class="search-name">Улан-Удэ</a></li>
+                            <li><a href="#" class="search-name">Екатеринбург</a></li>
+                            <li><a href="#" class="search-name">Саратов</a></li>
+                            <li><a href="#" class="search-name">Кемерово</a></li>
+                            <li><a href="#" class="search-name">Комсомольск-на-Амуре</a></li>
+                            <li><a href="#" class="search-name">Королев</a></li>
+                            <li><a href="#" class="search-name">Котово</a></li>
+                            <li><a href="#" class="search-name">Коломна</a></li>
+                            <li><a href="#" class="search-name">Кострома</a></li>
+                            <li><a href="#" class="search-name">Комсомольск-на-Амуре</a></li>
+                            <li><a href="#" class="search-name">Королев</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- popup search 2 -->
+    <div class="popup" data-target="popup-search">
+        <div class="popup__body popup-search__body">
+            <div class="popup__content popup-search__content search-wrapper">
+    
+                <div class="container">
+                    <form class="popup__search_form popup-search__form">
+                        <input type="search" placeholder="Поиск" required class="popup__search_input input">
+                        <img src="assets/img/icons/search.svg" alt="search" class="popup__search_img">
+    
+                        <picture class="close-popup close-popup-btn popup-search__close">
+                            <source srcset="assets/img/icons/popup-close-white.svg" type="image/svg+xml">
+                            <img src="assets/img/icons/popup-close-white.png" alt="close_popup">
+                        </picture>
+                    </form>
+    
+                    <div class="popup__search popup-search__search ">
+                        <!-- <ul class="popup__search_list popup-search__list">
+                            </ul> -->
+                    </div>
+    
+                    <div class="popup-city__search-wrap">
+                        <div class="popup__search popup__search-result popup-search__search-result none">
+                            <p class="no-results-message none">По вашему запросу ничего не найдено</p>
+                            <ul class="search-list popup__search_list popup-search__list_result">
+                                <li><a href="#" class="search-name">Консультация психиатра с назначением препаратов
+                                        и выпиской рецептов</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма в стационаре</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма в стационаре</a></li>
+                                <li><a href="#" class="search-name">Вывод из запоя на дому в Ростове на Дону:
+                                        круглосуточно, анонимно по цене от 3500 руб</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма</a></li>
+                                <li><a href="#" class="search-name">Консультация психиатра с назначением препаратов
+                                        и выпиской рецептов</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма в стационаре</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма в стационаре</a></li>
+                                <li><a href="#" class="search-name">Вывод из запоя на дому в Ростове на Дону:
+                                        круглосуточно, анонимно по цене от 3500 руб</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div></body>
+
+</html>

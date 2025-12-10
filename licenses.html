@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Name</title>
+    <meta name='keywords' content='' />
+    <meta name='description' content='' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="assets/css/build/build/swiper.css">
+    <link rel="stylesheet" href="assets/css/build/build/fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/build/fancybox.min.js" defer></script>
+    <script src="assets/js/request.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/sourcebuster.min.js" defer></script></head>
+
+<body>
+    <header class="header" id="header">
+        <div class="header__inner">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__top-row">
+                        <div class="header__top-item">
+                            <a href="/" class="header__logo logo">
+                                <picture class="logo__picture">
+                                    <source srcset="assets/img/logo.webp" type="image/webp">
+                                    <img src="assets/img/logo.png" alt="Logo">
+                                </picture>
+                            </a>
+                            <a href="/" class="header__logo header__logo--mob logo">
+                                <picture class="logo__picture">
+                                    <source srcset="assets/img/icons/logo-mob.webp" type="image/webp">
+                                    <img src="assets/img/icons/logo-mob.png" alt="Logo">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="header__top-item header__top-item--btns header__info">
+                            <div class="top-item__btns">
+                                <button class="top-item__btn btn popup-btn" data-path="popup-change">
+                                    <picture class="top-item__btn-img">
+                                        <source srcset="assets/img/icons/home.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/home.png" alt="location">
+                                    </picture>
+                                    <div class="top-item__btn-text">
+                                        <p>Вызов врача на дом</p>
+                                    </div>
+                                </button>
+                                <button class="top-item__btn btn popup-btn" data-path="popup-change">
+                                    <picture class="top-item__btn-img">
+                                        <source srcset="assets/img/icons/test.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/test.png" alt="location">
+                                    </picture>
+                                    <div class="top-item__btn-text">
+                                        <p>Тест на психическое состояние</p>
+                                    </div>
+                                </button>
+                            </div>
+                            <div class="top-item__btns">
+                                <button class="top-item__btn btn popup-btn" data-path="popup-change">
+                                    <picture class="top-item__btn-img">
+                                        <source srcset="assets/img/icons/online-pay.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/online-pay.png" alt="location">
+                                    </picture>
+                                    <div class="top-item__btn-text">
+                                        <p>Оплата онлайн</p>
+                                    </div>
+                                </button>
+                                <button class="top-item__btn btn popup-btn" data-path="popup-change">
+                                    <picture class="top-item__btn-img">
+                                        <source srcset="assets/img/icons/record.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/record.png" alt="location">
+                                    </picture>
+                                    <div class="top-item__btn-text">
+                                        <p>Записаться на прием к врачу</p>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="header__top-contact header__info">
+                            <div class="header__top-item header__info--address">
+                                <div class="header__info-title">
+                                    <p>Адрес:</p>
+                                </div>
+                                <div class="header__info-text">
+                                    <button class="popup-btn" data-path="popup-city">Нижний Новгород, ул. Родионова,
+                                        187В</button>
+                                </div>
+                            </div>
+                            <div class="header__top-item header__info--phone">
+                                <div class="header__info-title">
+                                    <p>Работаем круглосуточно!</p>
+                                </div>
+                                <div class="header__info-text header__info-phone">
+                                    <a href="tel:+78632261817">+7 (495) 225-81-58</a>
+                                </div>
+                                <div class="header__info-text header__info-mail">
+                                    <a href="mailto:info@rasstroystv.ru">info@rasstroystv.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__btns header__btns--mob">
+                            <button class="primary-btn popup-btn" data-path="popup-search">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/search.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/search.png" alt="location">
+                                </picture>
+                            </button>
+                            <a href="#" class="tertiary-btn popup-btn">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/views.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/views.png" alt="location">
+                                </picture>
+                            </a>
+                            <button class="primary-btn popup-btn" data-path="popup-search">
+                                <picture class="top-item__btn-img">
+                                    <source srcset="assets/img/icons/record-mob.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/record-mob.png" alt="location">
+                                </picture>
+                            </button>
+                        </div>
+                        <div class="header__top-item header__info">
+                            <div class="social-networks">
+                                <div class="social-networks__item">
+                                    <picture class="header__info-img">
+                                        <source srcset="assets/img/icons/vk.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/vk.png" alt="location">
+                                    </picture>
+                                </div>
+                                <div class="social-networks__item">
+                                    <picture class="header__info-img">
+                                        <source srcset="assets/img/icons/ok.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/ok.png" alt="location">
+                                    </picture>
+                                </div>
+                                <div class="social-networks__item">
+                                    <picture class="header__info-img">
+                                        <source srcset="assets/img/icons/tg.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/tg.png" alt="location">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__mobile">
+                            <div class="header__top-btns">
+                                <button class="burger">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="header__bottom">
+                    <div class="header__bottom-row">
+                        <div class="header__mobile">
+                            <div class="header__infos">
+                                <div class="header__info">
+                                    <div class="header__info-text">
+                                        <div class="header__info-title">
+                                            <p>Адрес:</p>
+                                        </div>
+                                        <div class="header__info-text">
+                                            <button class="popup-btn" data-path="popup-city">Нижний Новгород, ул. Родионова,
+                                                187В</button>
+                                        </div>
+                                    </div>
+                                    <div class="header__info-email">
+                                        <p>Почта:</p> <a href="mailto:info@rasstroystv.ru">info@rasstroystv.ru</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__menu">
+                            <nav class="header__nav">
+                                <ul class="header__nav-list">
+                                    <li class="header__nav-item header__nav-item--services">
+                                        <button class="header__nav-open">
+                                            <div class="header__nav-burger">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                            <span class="header__nav-name">Услуги</span>
+                                            <ul class="header__nav-sublist">
+                                                <li><a href="#">Алкоголизм</a>
+                                                    <span class="header__nav-arrow">
+                                                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M13 1.5L7 7.5L1 1.5" stroke="#363940"
+                                                                stroke-width="1.5" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </span>
+                                                    <div class="header__nav-subsublist">
+                                                        <ul>
+                                                            <li><a href="#">Вывод из запоя</a></li>
+                                                            <li><a href="#">Лечение алкогольной зависимости</a></li>
+                                                            <li><a href="#">Лечение похмелья</a></li>
+                                                            <li><a href="#">Реабилитация алкоголизма</a></li>
+                                                            <li><a href="#">Кодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Вшивание торпеды от алкоголизма</a></li>
+                                                            <li><a href="#">Кодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Раскодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Раскодирование от алкоголизма</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li><a href="#">Капельница</a>
+                                                    <span class="header__nav-arrow">
+                                                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M13 1.5L7 7.5L1 1.5" stroke="#363940"
+                                                                stroke-width="1.5" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </span>
+                                                    <div class="header__nav-subsublist">
+                                                        <ul>
+                                                            <li><a href="#">Вывод из запоя</a></li>
+                                                            <li><a href="#">Лечение алкогольной зависимости</a></li>
+                                                            <li><a href="#">Лечение похмелья</a></li>
+                                                            <li><a href="#">Реабилитация алкоголизма</a></li>
+                                                            <li><a href="#">Кодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Кодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Кодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Вшивание торпеды от алкоголизма</a></li>
+                                                            <li><a href="#">Вшивание торпеды от алкоголизма</a></li>
+                                                            <li><a href="#">Кодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Раскодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Раскодирование от алкоголизма</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li><a href="#">Наркомания</a>
+                                                    <span class="header__nav-arrow">
+                                                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M13 1.5L7 7.5L1 1.5" stroke="#363940"
+                                                                stroke-width="1.5" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </span>
+                                                    <div class="header__nav-subsublist">
+                                                        <ul>
+                                                            <li><a href="#">Вывод из запоя</a></li>
+                                                            <li><a href="#">Лечение алкогольной зависимости</a></li>
+                                                            <li><a href="#">Лечение похмелья</a></li>
+                                                            <li><a href="#">Реабилитация алкоголизма</a></li>
+                                                            <li><a href="#">Кодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Вшивание торпеды от алкоголизма</a></li>
+                                                            <li><a href="#">Кодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Раскодирование от алкоголизма</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li><a href="#">Психиатрия</a>
+                                                    <span class="header__nav-arrow">
+                                                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M13 1.5L7 7.5L1 1.5" stroke="#363940"
+                                                                stroke-width="1.5" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </span>
+                                                    <div class="header__nav-subsublist">
+                                                        <ul>
+                                                            <li><a href="#">Вывод из запоя</a></li>
+                                                            <li><a href="#">Лечение алкогольной зависимости</a></li>
+                                                            <li><a href="#">Лечение похмелья</a></li>
+                                                            <li><a href="#">Реабилитация алкоголизма</a></li>
+                                                            <li><a href="#">Раскодирование от алкоголизма</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li><a href="#">Игромания</a>
+                                                    <span class="header__nav-arrow">
+                                                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M13 1.5L7 7.5L1 1.5" stroke="#363940"
+                                                                stroke-width="1.5" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </span>
+                                                    <div class="header__nav-subsublist">
+                                                        <ul>
+                                                            <li><a href="#">Вывод из запоя</a></li>
+                                                            <li><a href="#">Лечение алкогольной зависимости</a></li>
+                                                            <li><a href="#">Лечение похмелья</a></li>
+                                                            <li><a href="#">Реабилитация алкоголизма</a></li>
+                                                            <li><a href="#">Кодирование от алкоголизма</a></li>
+                                                            <li><a href="#">Вшивание торпеды от алкоголизма</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li><a href="#">Другие медицинские</a>
+                                                    <span class="header__nav-arrow">
+                                                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M13 1.5L7 7.5L1 1.5" stroke="#363940"
+                                                                stroke-width="1.5" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </span>
+                                                    <div class="header__nav-subsublist">
+                                                        <ul>
+                                                            <li><a href="#">Вывод из запоя</a></li>
+                                                            <li><a href="#">Лечение алкогольной зависимости</a></li>
+                                                            <li><a href="#">Лечение похмелья</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </button>
+                                    </li>
+                                    <li class="header__nav-item header__nav-item--descp">
+                                        <button class="header__nav-open">
+                                            <span class="header__nav-name">О нас</span>
+                                            <ul class="header__nav-sublist">
+                                                <li><a href="#">Лицензии</a></li>
+                                                <li><a href="#">Акции</a></li>
+                                                <li><a href="#">Отзывы</a></li>
+                                                <li><a href="#">Фотогалерея</a></li>
+                                            </ul>
+                                        </button>
+                                    </li>
+                                    <li class="header__nav-item header__nav-item--disc">
+                                        <a href="#" class="header__nav-link">Цены</a>
+                                    </li>
+    
+                                    <li class="header__nav-item header__nav-item--disc">
+                                        <a href="#" class="header__nav-link">Специалисты</a>
+                                    </li>
+    
+                                    <li class="header__nav-item header__nav-item--disc">
+                                        <a href="#" class="header__nav-link">Статьи</a>
+                                    </li>
+    
+                                    <li class="header__nav-item header__nav-item--disc">
+                                        <a href="#" class="header__nav-link">Контакты</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="header__info-btns">
+                            <button class="header__info-btn popup-btn" data-path="popup-change">
+                                <picture>
+                                    <source srcset="assets/img/icons/btn-1.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/btn-1.png" alt="close_popup">
+                                </picture>
+                                Записаться на прием к врачу
+                            </button>
+                            <button class="header__info-btn popup-btn" data-path="popup-change">
+                                <picture>
+                                    <source srcset="assets/img/icons/btn-2.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/btn-2.png" alt="close_popup">
+                                </picture>
+                                Вызов врача на дом
+                            </button>
+                            <button class="header__info-btn popup-btn" data-path="popup-change">
+                                <picture>
+                                    <source srcset="assets/img/icons/btn-3.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/btn-3.png" alt="close_popup">
+                                </picture>
+                                Тест на психическое состояние
+                            </button>
+                        </div>
+                        <div class="header__btns">
+                            <button class="primary-btn popup-btn" data-path="popup-search">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/search.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/search.png" alt="location">
+                                </picture>
+                            </button>
+                            <a href="#" class="tertiary-btn popup-btn">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/views.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/views.png" alt="location">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="social-networks social-networks--mob">
+                            <div class="social-networks__item">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/vk.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/vk.png" alt="location">
+                                </picture>
+                            </div>
+                            <div class="social-networks__item">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/ok.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/ok.png" alt="location">
+                                </picture>
+                            </div>
+                            <div class="social-networks__item">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/tg.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/tg.png" alt="location">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>    <main class="main">
+        <section class="intro-right general-section">
+            <div class="container">
+                <div class="intro-right__main">
+                    <div class="intro-right__items">
+                        <div class="intro-right__item">
+                            <h1 class="title_h1">Лицензии и сертификаты клиники «Баланс»</h1>
+                            <p class="subtitle">Частная психиатрическая клиника «Баланс» в Нижнем Новгороде имеет все лицензии и
+                                сертификаты, подтверждающие право на оказание психиатрической и психотерапевтической помощи.</p>
+                        </div>
+                        <div class="intro-right__item intro-right__item--text">
+                            <picture class="logo__picture">
+                                <source srcset="assets/img/icons/banner.webp" type="image/webp">
+                                <img src="assets/img/icons/banner.png" alt="banner">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="licenses general-section">
+            <div class="container">
+                <div class="licenses__wrap">
+                    <div class="licenses__left">
+                        <a href="assets/img/icons/licenses.jpg" class="licenses__item" data-fancybox="gallery">
+                            <div class="licenses__item-main">
+                                <picture class="licenses__item-picture">
+                                    <source srcset="assets/img/icons/licenses.webp" type="image/webp">
+                                    <img src="assets/img/icons/licenses.jpg" alt="">
+                                </picture>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="licenses__right">
+                        <div class="licenses__items">
+                            <a href="assets/img/icons/licenses.jpg" class="licenses__item" data-fancybox="gallery">
+                                <div class="licenses__item-main">
+                                    <picture class="licenses__item-picture">
+                                        <source srcset="assets/img/icons/licenses.webp" type="image/webp">
+                                        <img src="assets/img/icons/licenses.jpg" alt="">
+                                    </picture>
+                                </div>
+                            </a>
+                            <a href="assets/img/icons/licenses.jpg" class="licenses__item" data-fancybox="gallery">
+                                <div class="licenses__item-main">
+                                    <picture class="licenses__item-picture">
+                                        <source srcset="assets/img/icons/licenses.webp" type="image/webp">
+                                        <img src="assets/img/icons/licenses.jpg" alt="">
+                                    </picture>
+                                </div>
+                            </a>
+                            <a href="assets/img/icons/licenses.jpg" class="licenses__item" data-fancybox="gallery">
+                                <div class="licenses__item-main">
+                                    <picture class="licenses__item-picture">
+                                        <source srcset="assets/img/icons/licenses.webp" type="image/webp">
+                                        <img src="assets/img/icons/licenses.jpg" alt="">
+                                    </picture>
+                                </div>
+                            </a>
+                            <a href="assets/img/icons/licenses.jpg" class="licenses__item" data-fancybox="gallery">
+                                <div class="licenses__item-main">
+                                    <picture class="licenses__item-picture">
+                                        <source srcset="assets/img/icons/licenses.webp" type="image/webp">
+                                        <img src="assets/img/icons/licenses.jpg" alt="">
+                                    </picture>
+                                </div>
+                            </a>
+                            <a href="assets/img/icons/licenses.jpg" class="licenses__item" data-fancybox="gallery">
+                                <div class="licenses__item-main">
+                                    <picture class="licenses__item-picture">
+                                        <source srcset="assets/img/icons/licenses.webp" type="image/webp">
+                                        <img src="assets/img/icons/licenses.jpg" alt="">
+                                    </picture>
+                                </div>
+                            </a>
+                            <a href="assets/img/icons/licenses.jpg" class="licenses__item" data-fancybox="gallery">
+                                <div class="licenses__item-main">
+                                    <picture class="licenses__item-picture">
+                                        <source srcset="assets/img/icons/licenses.webp" type="image/webp">
+                                        <img src="assets/img/icons/licenses.jpg" alt="">
+                                    </picture>
+                                </div>
+                            </a>
+                            <a href="assets/img/icons/licenses.jpg" class="licenses__item" data-fancybox="gallery">
+                                <div class="licenses__item-main">
+                                    <picture class="licenses__item-picture">
+                                        <source srcset="assets/img/icons/licenses.webp" type="image/webp">
+                                        <img src="assets/img/icons/licenses.jpg" alt="">
+                                    </picture>
+                                </div>
+                            </a>
+                            <a href="assets/img/icons/licenses.jpg" class="licenses__item" data-fancybox="gallery">
+                                <div class="licenses__item-main">
+                                    <picture class="licenses__item-picture">
+                                        <source srcset="assets/img/icons/licenses.webp" type="image/webp">
+                                        <img src="assets/img/icons/licenses.jpg" alt="">
+                                    </picture>
+                                </div>
+                            </a>
+                            <a href="assets/img/icons/licenses.jpg" class="licenses__item" data-fancybox="gallery">
+                                <div class="licenses__item-main">
+                                    <picture class="licenses__item-picture">
+                                        <source srcset="assets/img/icons/licenses.webp" type="image/webp">
+                                        <img src="assets/img/icons/licenses.jpg" alt="">
+                                    </picture>
+                                </div>
+                            </a>
+                            <a href="assets/img/icons/licenses.jpg" class="licenses__item" data-fancybox="gallery">
+                                <div class="licenses__item-main">
+                                    <picture class="licenses__item-picture">
+                                        <source srcset="assets/img/icons/licenses.webp" type="image/webp">
+                                        <img src="assets/img/icons/licenses.jpg" alt="">
+                                    </picture>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="detailed-consultation general-section">
+            <div class="container">
+                <div class="detailed-consultation__main">
+                    <div class="detailed-consultation__title">
+                        <p>Получить подробную консультацию</p>
+                    </div>
+                    <div class="detailed-consultation__subtitle">
+                        <p>Вы можете связаться с нами любым удобным вам способом. Задавайте, волнующие вас,
+                            вопросы в любое время - мы работаем круглосуточно!</p>
+                    </div>
+                    <form class="detailed-consultation__form">
+                        <div class="detailed-consultation__form-inputs">
+                            <div class="form-inputs__top">
+                                <input type="tel" name="params[phone][]" class="detailed-consultation__form-input"
+                                    placeholder="Ваш телефон" required="">
+                                <input type="name" name="params[name][]" class="detailed-consultation__form-input"
+                                    placeholder="Ваше имя" required="">
+                            </div>
+                            <button type="submit"
+                                class="detailed-consultation__form-btn general-button"><span>Отправить</span></button>
+                        </div>
+                        <div class="politic white popup-change__politic">
+                            <input type="checkbox" id="politic1" checked="">
+                            <label class="checkbox">
+                                <input type="checkbox" checked="checked">
+                                <span class="checkbox-mark"></span>
+                                <spanН>Нажимая кнопку я соглашаюсь с <a href="/private-politic/" rel="nofollow">политикой
+                                        конфединциальности</a> и <a href="/user-agreement/" rel="nofollow">пользовательским
+                                        соглашением</a></a></span>
+                            </label>
+                        </div>
+                    </form>
+                    <div class="other-ways">
+                        <div class="other-ways__title">
+                            <p>Другие способы связи:</p>
+                        </div>
+                        <div class="other-ways__items">
+                            <div class="other-ways__item">
+                                <picture class="other-ways__item-picture">
+                                    <source srcset="assets/img/icons/ways1.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/ways1.png" alt="location">
+                                </picture>
+                                <a href="tel:+7 (495) 225-81-58">+7 (495) 225-81-58</a>
+                                <p>Консультация по телефону</p>
+                            </div>
+                            <div class="other-ways__item">
+                                <picture class="other-ways__item-picture">
+                                    <source srcset="assets/img/icons/ways2.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/ways2.png" alt="location">
+                                </picture>
+                                <a href="tel:+7 (495) 225-81-58">+7 (495) 225-81-58</a>
+                                <p>Консультация в Ватсап</p>
+                            </div>
+                            <div class="other-ways__item">
+                                <picture class="other-ways__item-picture">
+                                    <source srcset="assets/img/icons/ways3.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/ways3.png" alt="location">
+                                </picture>
+                                <a href="tel:+7 (495) 225-81-58">+7 (495) 225-81-58</a>
+                                <p>Консультация в Телеграм</p>
+                            </div>
+                            <div class="other-ways__item">
+                                <picture class="other-ways__item-picture">
+                                    <source srcset="assets/img/icons/ways4.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/ways4.png" alt="location">
+                                </picture>
+                                <p class="other-ways__item-title">Онлайн-чат</p>
+                                <p>Консультация онлайн</p>
+                            </div>
+                            <div class="other-ways__item">
+                                <picture class="other-ways__item-picture">
+                                    <source srcset="assets/img/icons/ways5.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/ways5.png" alt="location">
+                                </picture>
+                                <a href="mailto:info@rasstroystv.ru">info@rasstroystv.ru</a>
+                                <p>Консультация онлайн</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <picture class="detailed-consultation__picture">
+                <source srcset="assets/img/icons/banner-form.webp" type="image/webp">
+                <img src="assets/img/icons/banner-form.png" alt="">
+            </picture>
+        </section>    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <a href="#">
+                    <picture class="footer__logo">
+                        <source srcset="assets/img/icons/footer-logo.webp" type="image/webp">
+                        <img src="assets/img/icons/footer-logo.png" alt="banner">
+                    </picture>
+                </a>
+                <div class="footer__links">
+                    <div class="footer__links-wrap">
+                        <a class="footer__link" href="#">О нас</a>
+                        <a class="footer__link" href="#">Цены</a>
+                        <a class="footer__link" href="#">Специалисты</a>
+                        <a class="footer__link" href="#">Статьи</a>
+                        <a class="footer__link" href="#">Контакты</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__main">
+                <div class="footer__info">
+                    <p class="footer__info-text">«Баланс» — частная психиатрическая клиника в Нижнем Новгороде, где
+                        профессионализм сочетается с
+                        заботой. Мы помогаем восстановить спокойствие, энергию и уверенность. Ваше психическое здоровье —
+                        наша ответственность.</p>
+                    <div class="footer__info-main">
+                        <div class="footer__info-btns">
+                            <button class="footer__info-btn popup-btn" data-path="popup-change">
+                                <picture>
+                                    <source srcset="assets/img/icons/btn-1.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/btn-1.png" alt="close_popup">
+                                </picture>
+                                Записаться на прием к врачу
+                            </button>
+                            <button class="footer__info-btn popup-btn" data-path="popup-change">
+                                <picture>
+                                    <source srcset="assets/img/icons/btn-2.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/btn-2.png" alt="close_popup">
+                                </picture>
+                                Вызов врача на дом
+                            </button>
+                            <button class="footer__info-btn popup-btn" data-path="popup-change">
+                                <picture>
+                                    <source srcset="assets/img/icons/btn-3.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/btn-3.png" alt="close_popup">
+                                </picture>
+                                Тест на психическое состояние
+                            </button>
+                        </div>
+                        <div class="footer__connection">
+                            <p class="footer__connection-title">Мы работаем круглосуточно
+                                и ждем вашего звонка!</p>
+                            <div class="footer__connection-address">
+                                <span>Адрес:</span>
+                                <button class="popup-btn" data-path="popup-city">Нижний Новгород, ул. Родионова,
+                                    187В</button>
+                            </div>
+                            <div class="footer__connection-phone">
+                                <span>Телефон:</span>
+                                <a href="tel:+7 (495) 225-81-58">+7 (495) 225-81-58</a>
+                            </div>
+                            <div class="footer__connection-mail">
+                                <span>Телефон:</span>
+                                <a href="mailto:info@rasstroystv.ru">info@rasstroystv.ru</a>
+                            </div>
+                        </div>
+                        <div class="social-networks">
+                            <div class="social-networks__item">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/vk2.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/vk2.png" alt="location">
+                                </picture>
+                            </div>
+                            <div class="social-networks__item">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/ok2.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/ok2.png" alt="location">
+                                </picture>
+                            </div>
+                            <div class="social-networks__item">
+                                <picture class="header__info-img">
+                                    <source srcset="assets/img/icons/tg2.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/tg2.png" alt="location">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__services">
+                    <div class="footer__tab-wrap tab-wrap">
+                        <div class="footer__tab-main tab-main">
+                            <div class="footer__tab-btns tab-btns">
+                                <button class="footer__tab-btn tab-btn active" data-tab="rev-1">Лечение расстройств</button>
+                                <button class="footer__tab-btn tab-btn" data-tab="rev-2">Лечение зависимостей</button>
+                                <button class="footer__tab-btn tab-btn" data-tab="rev-3">Консультация врача</button>
+                                <button class="footer__tab-btn tab-btn" data-tab="rev-4">Капельницы</button>
+                                <button class="footer__tab-btn tab-btn" data-tab="rev-5">Выездные услуги</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__tab-contents">
+                        <div class="footer__tab-content tab-content active" data-tab="rev-1">
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="footer__tab-content tab-content" data-tab="rev-2">
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="footer__tab-content tab-content" data-tab="rev-3">
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                            <a href="#" class="footer__tab-item">
+                                <div class="footer__tab-name">
+                                    <p>Консультативный прием врача (взрослый и детский)</p>
+                                </div>
+                                <div class="footer__tab-price">
+                                    <p>от 5 000 ₽</p>
+                                    <button class="popup-btn general-button" data-path="popup-change">Записаться</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__services-bottom">
+                        <div class="footer__methods services-bottom__item">
+                            <div class="footer__methods-title">
+                                <p>Способы оплаты:</p>
+                            </div>
+                            <div class="footer__methods-items">
+                                <div class="footer__methods-item">
+                                    <picture class="footer__methods-picture">
+                                        <source srcset="assets/img/icons/methods1.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/methods11.png" alt="location">
+                                    </picture>
+                                    <p>Наличные</p>
+                                </div>
+                                <div class="footer__methods-item">
+                                    <picture class="footer__methods-picture">
+                                        <source srcset="assets/img/icons/methods2.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/methods22.png" alt="location">
+                                    </picture>
+                                    <p>QR-код</p>
+                                </div>
+                                <div class="footer__methods-item">
+                                    <picture class="footer__methods-picture">
+                                        <source srcset="assets/img/icons/methods3.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/methods33.png" alt="location">
+                                    </picture>
+                                    <p>Карты</p>
+                                </div>
+                                <div class="footer__methods-item">
+                                    <picture class="footer__methods-picture">
+                                        <source srcset="assets/img/icons/methods4.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/methods44.png" alt="location">
+                                    </picture>
+                                    <p>СБП</p>
+                                </div>
+                                <div class="footer__methods-item">
+                                    <picture class="footer__methods-picture">
+                                        <source srcset="assets/img/icons/methods5.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/methods55.png" alt="location">
+                                    </picture>
+                                    <p>Перевод</p>
+                                </div>
+                                <div class="footer__methods-item">
+                                    <picture class="footer__methods-picture">
+                                        <source srcset="assets/img/icons/methods6.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/methods66.png" alt="location">
+                                    </picture>
+                                    <p>Рассрочка</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services-bottom__links services-bottom__item">
+                            <a class="services-bottom__link" href="#">Политика конфиденциальности</a>
+                            <a class="services-bottom__link" href="#">Пользовательское соглашение</a>
+                            <a class="services-bottom__link" href="#">Политика обработки персональных данных</a>
+                            <a class="services-bottom__link" href="#">Согласие на обработку персональных данных</a>
+                            <a class="services-bottom__link" href="#">Согласие на обработку персональных данных
+                                с помощью сервиса «Яндекс.Метрика»</a>
+                        </div>
+                        <div class="services-bottom__ltext services-bottom__item">
+                            <p>Вся информация на сайте не является публичной офертой, несёт сугубо информационный характер,
+                                и не служит для постановки диагноза и назначения лечения. Есть противопоказания, необходимо
+                                проконсультироваться с врачом. Консультационные услуги, оказываемые по телефону,
+                                мессенджерам
+                                и в соцсетях носят исключительно информационный характер и не являются медицинскими
+                                услугами. Оставаясь на сайте вы соглашаетесь
+                                на использование cookies. 18+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/build/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper.js"></script>
+    <button class="scroll-top">
+        <svg width="18" height="12" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 7.5L7 1.5L13 7.5" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+    </button>
+    <!-- Pop-up change 1 -->
+    <div class="popup" data-target="popup-change">
+        <div class="popup__body">
+            <div class="popup__content popup-change__content">
+                <picture class="close-popup close-popup-btn popup-change__close">
+                    <source srcset="assets/img/icons/exit.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/exit.png" alt="close_popup">
+                </picture>
+                <div class="popup-change__text">
+                    <p class="popup-change__title original-title">Обратиться за помощью</p>
+                    <p class="popup-change__subtitle">Оставьте свой номер или свяжитесь с нами по номеру горячей линии,
+                        во время звонка опишите нам ситуацию - врач подготовит все самое необходимое и незамедлительно
+                        отправится к вам.</p>
+                </div>
+                <form class="form popup-change__form">
+                    <input name="title_url_message" type="hidden" value=""> <input type="tel" name="params[phone][]"
+                        class="popup-change__input popup-input blue" placeholder="Ваш телефон*" required>
+                    <div class="form__btns">
+                        <button type="submit"
+                            class="general-button popup-input popup-change__btn"><span>Отправить</span></button>
+                        <div class="politic white">
+                            <input type="checkbox" id="politic1" checked="">
+                            <label class="checkbox">
+                                <input type="checkbox" checked="checked">
+                                <span class="checkbox-mark"></span>
+                                <span>Отправляя заявку, вы соглашаетесь
+                                    с <a href="#">политикой конфиденциальности</a>.</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form__bottom">
+                        <p class="form__bottom-text">или позвоните</p>
+                        <div class="form__bottom-phones">
+                            <a href="tel:+7 (495) 225-81-58">+7 (495) 225-81-58</a>
+                            <p>Горячая линия помощи - Круглосуточно (24/7)</p>
+                        </div>
+                    </div>
+                </form>
+                <picture class="popup__content-picture">
+                    <source srcset="assets/img/icons/popup-change.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/popup-change.png" alt="">
+                </picture>
+            </div>
+        </div>
+    </div>
+    <div class="popup" data-target="popup-question">
+        <div class="popup__body">
+            <div class="popup__content popup-change__content">
+                <picture class="close-popup close-popup-btn popup-change__close">
+                    <source srcset="assets/img/icons/exit.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/exit.png" alt="close_popup">
+                </picture>
+                <div class="popup-change__text">
+                    <p class="popup-change__title original-title">Обратиться за помощью</p>
+                    <p class="popup-change__subtitle">Оставьте свой номер или свяжитесь с нами по номеру горячей линии,
+                        во время звонка опишите нам ситуацию - врач подготовит все самое необходимое и незамедлительно
+                        отправится к вам.</p>
+                </div>
+                <form class="form popup-change__form">
+                    <input name="title_url_message" type="hidden" value=""> <input type="tel" name="params[phone][]"
+                        class="popup-change__input popup-input blue" placeholder="Ваш телефон*" required>
+                    <div class="form__btns">
+                        <button type="submit"
+                            class="general-button popup-input popup-change__btn"><span>Отправить</span></button>
+                        <div class="politic white">
+                            <input type="checkbox" id="politic1" checked="">
+                            <label class="checkbox">
+                                <input type="checkbox" checked="checked">
+                                <span class="checkbox-mark"></span>
+                                <span>Отправляя заявку, вы соглашаетесь
+                                    с <a href="#">политикой конфиденциальности</a>.</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form__bottom">
+                        <p class="form__bottom-text">или позвоните</p>
+                        <div class="form__bottom-phones">
+                            <a href="tel:+7 (495) 225-81-58">+7 (495) 225-81-58</a>
+                            <p>Горячая линия помощи - Круглосуточно (24/7)</p>
+                        </div>
+                    </div>
+                </form>
+                <picture class="popup__content-picture">
+                    <source srcset="assets/img/icons/popup-change.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/popup-change.png" alt="">
+                </picture>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <div class="popup popup-response" data-modal-ok="result-wrapper" data-modal-err="result-wrapper"
+        data-modal-open="open active">
+        <div class="popup__body">
+            <div class="popup__content popup-response__content">
+                <picture class="close-popup close-popup-btn">
+                    <source srcset="assets/img/icons/popup-close.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/popup-close.png" alt="close_popup">
+                </picture>
+    
+                <div class="result-wrapper popup-response__wrapper">
+                    <h3>Ваша заявка принята</h3>
+                    <p>Он будет опубликован после проверки модератором.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- popup city 1 -->
+    <div class="popup" data-target="popup-city">
+        <div class="popup__body">
+            <div class="popup__content popup-city__content search-wrapper">
+                <picture class="close-popup close-popup-btn popup-change__close">
+                    <source srcset="assets/img/icons/exit.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/exit.png" alt="close_popup">
+                </picture>
+                <p class="popup-city__title title-h3">выберите ваш город</p>
+    
+                <form class="popup__search_form popup-city__form">
+                    <input type="search" placeholder="Введите ваш город" required class="popup__search_input input">
+                    <img src="assets/img/icons/search.svg" alt="search" class="popup__search_img">
+                </form>
+    
+                <div class="popup__search popup-city__search ">
+                    <ul class="popup__search_list popup-city__list">
+                        <li><a href="#" class="">Москва</a></li>
+                        <li><a href="#" class="">Нижний Новгород</a></li>
+                        <li><a href="#" class="">Оренбург</a></li>
+                        <li><a href="#" class="">Уфа</a></li>
+                        <li><a href="#" class="">Старый Оскол</a></li>
+                        <li><a href="#" class="">Санкт-Петербург</a></li>
+                        <li><a href="#" class="">Саранск</a></li>
+                        <li><a href="#" class="">Севастополь</a></li>
+                        <li><a href="#" class="">Волгоград</a></li>
+                        <li><a href="#" class="">Архангельск</a></li>
+                        <li><a href="#" class="">Краснодар</a></li>
+                        <li><a href="#" class="">Севастополь</a></li>
+                        <li><a href="#" class="">Архангельск</a></li>
+                        <li><a href="#" class="">Краснодар</a></li>
+                        <li><a href="#" class="">Севастополь</a></li>
+                    </ul>
+                </div>
+                <div class="popup-city__search-wrap">
+                    <div class="popup__search popup__search-result popup-city__search-result none">
+                        <p class="no-results-message popup-city__no-results-message none">По вашему запросу города
+                            не найдены</p>
+                        <ul class="search-list popup__search_list popup-city__list_result">
+                            <li><a href="#" class="search-name">Ростов-на-Дону</a></li>
+                            <li><a href="#" class="search-name">Самара</a></li>
+                            <li><a href="#" class="search-name">Владивосток</a></li>
+                            <li><a href="#" class="search-name">Краснодар</a></li>
+                            <li><a href="#" class="search-name">Красноярск</a></li>
+                            <li><a href="#" class="search-name">Комсомольск-на-Амуре</a></li>
+                            <li><a href="#" class="search-name">Москва</a></li>
+                            <li><a href="#" class="search-name">Калининград</a></li>
+                            <li><a href="#" class="search-name">Благовещенск</a></li>
+                            <li><a href="#" class="search-name">Санкт-Петербург</a></li>
+                            <li><a href="#" class="search-name">Хабаровск</a></li>
+                            <li><a href="#" class="search-name">Улан-Удэ</a></li>
+                            <li><a href="#" class="search-name">Екатеринбург</a></li>
+                            <li><a href="#" class="search-name">Саратов</a></li>
+                            <li><a href="#" class="search-name">Кемерово</a></li>
+                            <li><a href="#" class="search-name">Комсомольск-на-Амуре</a></li>
+                            <li><a href="#" class="search-name">Королев</a></li>
+                            <li><a href="#" class="search-name">Котово</a></li>
+                            <li><a href="#" class="search-name">Коломна</a></li>
+                            <li><a href="#" class="search-name">Кострома</a></li>
+                            <li><a href="#" class="search-name">Комсомольск-на-Амуре</a></li>
+                            <li><a href="#" class="search-name">Королев</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- popup search 2 -->
+    <div class="popup" data-target="popup-search">
+        <div class="popup__body popup-search__body">
+            <div class="popup__content popup-search__content search-wrapper">
+    
+                <div class="container">
+                    <form class="popup__search_form popup-search__form">
+                        <input type="search" placeholder="Поиск" required class="popup__search_input input">
+                        <img src="assets/img/icons/search.svg" alt="search" class="popup__search_img">
+    
+                        <picture class="close-popup close-popup-btn popup-search__close">
+                            <source srcset="assets/img/icons/popup-close-white.svg" type="image/svg+xml">
+                            <img src="assets/img/icons/popup-close-white.png" alt="close_popup">
+                        </picture>
+                    </form>
+    
+                    <div class="popup__search popup-search__search ">
+                        <!-- <ul class="popup__search_list popup-search__list">
+                            </ul> -->
+                    </div>
+    
+                    <div class="popup-city__search-wrap">
+                        <div class="popup__search popup__search-result popup-search__search-result none">
+                            <p class="no-results-message none">По вашему запросу ничего не найдено</p>
+                            <ul class="search-list popup__search_list popup-search__list_result">
+                                <li><a href="#" class="search-name">Консультация психиатра с назначением препаратов
+                                        и выпиской рецептов</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма в стационаре</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма в стационаре</a></li>
+                                <li><a href="#" class="search-name">Вывод из запоя на дому в Ростове на Дону:
+                                        круглосуточно, анонимно по цене от 3500 руб</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма</a></li>
+                                <li><a href="#" class="search-name">Консультация психиатра с назначением препаратов
+                                        и выпиской рецептов</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма в стационаре</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма в стационаре</a></li>
+                                <li><a href="#" class="search-name">Вывод из запоя на дому в Ростове на Дону:
+                                        круглосуточно, анонимно по цене от 3500 руб</a></li>
+                                <li><a href="#" class="search-name">Кодирование от алкоголизма</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div></body>
+
+</html>
