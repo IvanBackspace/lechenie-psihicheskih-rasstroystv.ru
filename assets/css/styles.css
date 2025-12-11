@@ -6108,6 +6108,7 @@ picture.iboard__item-picture img {
   .footer__tab-contents {
     border: 0px solid #e9e4f1;
     padding: 0px;
+    min-height: 720px;
   }
   .footer__tab-item {
     border-bottom: 1px solid #eee;
