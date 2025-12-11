@@ -6907,6 +6907,7 @@ picture.iboard__item-picture img {
   }
   .header__bottom.active {
     padding-top: 0;
+    padding-bottom: 50px;
   }
   .header__btns {
     display: none;
