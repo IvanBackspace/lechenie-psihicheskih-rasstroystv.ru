@@ -1061,6 +1061,8 @@ template {
   display: flex;
   flex-wrap: wrap;
   gap: 16px 12px;
+  position: relative;
+  z-index: 10;
 }
 
 .popup-change__form input,
@@ -1115,6 +1117,7 @@ template {
   .popup-change__form {
     flex-direction: column;
     gap: 14px;
+    
   }
   .popup-change__form input {
     order: -2;
